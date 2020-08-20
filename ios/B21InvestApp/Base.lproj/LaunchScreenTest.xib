@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="1047"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBgTest" translatesAutoresizingMaskIntoConstraints="NO" id="QR9-4M-1x2">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="1047"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogoTest" translatesAutoresizingMaskIntoConstraints="NO" id="0ep-rz-5UG">
+                    <rect key="frame" x="144" y="150" width="192" height="192"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="192" id="50A-7g-ZVs" userLabel="height = 192"/>
+                        <constraint firstAttribute="width" constant="192" id="aok-zm-PdN" userLabel="width = 192"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashB21Text" translatesAutoresizingMaskIntoConstraints="NO" id="D9X-FI-nEi">
+                    <rect key="frame" x="176" y="374" width="128" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="EfN-cg-4hl"/>
+                        <constraint firstAttribute="width" constant="128" id="mAl-k6-KNI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your personal wealth manager for digital assets" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tuh-Oc-L4z">
+                    <rect key="frame" x="80" y="502" width="320" height="56.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="KAw-hQ-7Og"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© B21 2020. All Rights Reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpo-1m-n1N">
+                    <rect key="frame" x="141" y="998.5" width="198" height="16.5"/>
+                    <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QR9-4M-1x2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5vs-K6-HLY"/>
+                <constraint firstItem="D9X-FI-nEi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="86T-sV-D7S"/>
+                <constraint firstItem="D9X-FI-nEi" firstAttribute="top" secondItem="0ep-rz-5UG" secondAttribute="bottom" constant="32" id="9r2-UX-4xF"/>
+                <constraint firstItem="tuh-Oc-L4z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Hfh-oP-BTZ"/>
+                <constraint firstItem="zpo-1m-n1N" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Nfi-S9-7RM"/>
+                <constraint firstItem="tuh-Oc-L4z" firstAttribute="top" secondItem="D9X-FI-nEi" secondAttribute="bottom" constant="64" id="PC5-qZ-drU"/>
+                <constraint firstItem="0ep-rz-5UG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TQO-VX-TkA"/>
+                <constraint firstItem="QR9-4M-1x2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VMI-lI-8Fx"/>
+                <constraint firstItem="0ep-rz-5UG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="150" id="aOs-kE-v0O"/>
+                <constraint firstAttribute="bottom" secondItem="zpo-1m-n1N" secondAttribute="bottom" constant="32" id="fcO-o1-7CU"/>
+                <constraint firstAttribute="trailing" secondItem="QR9-4M-1x2" secondAttribute="trailing" id="k4D-3Z-oCi"/>
+                <constraint firstAttribute="bottom" secondItem="QR9-4M-1x2" secondAttribute="bottom" id="lBQ-Md-WtR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="334.78260869565219" y="285.60267857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SplashB21Text" width="129" height="66"/>
+        <image name="SplashBgTest" width="750.5" height="1334"/>
+        <image name="SplashLogoTest" width="256" height="256"/>
+    </resources>
+</document>

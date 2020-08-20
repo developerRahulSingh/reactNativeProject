@@ -1,0 +1,632 @@
+{
+  "appUpdatePage": {
+    "description": "Доступна новая версия приложения. Требуется обновить приложение до последней версии перед тем, как вы сможете продолжить его использование.",
+    "label_button_update_now": "Обновить сейчас",
+    "label_installed_version_description": "Вы только что установили {{version}} на ваше устройство.",
+    "label_new_version_available": "Доступна новая версия",
+    "title": "Требуется обновление"
+  },
+  "actionModelComponent": {
+    "label_button_cancel": "Отмена",
+    "label_select_image_from": "Выбрать изображение из"
+  },
+  "buildPortfolioPage": {
+    "description": "Нажмите на карту, чтобы добавить Коин в ваш портфель.",
+    "label_button_next": "Далее",
+    "title": "Создать мой Портфель"
+  },
+  "buildPortfolioStatusPage": {
+    "description": "Отличная работа по созданию вашего портфеля!\n\n Позже вы сможете внести изменения через меню приложения.\n\nПозвольте нам безопасно подтвердить вашу личность, чтобы вы могли начать инвестировать.",
+    "label_button_verify_me_now": "Подтвердить личность сейчас",
+    "title": "Мой портфель"
+  },
+  "commonAlertComponent": {
+    "label_button_cancel": "Отмена",
+    "label_button_copy_error": "Ошибка копирования",
+    "label_button_okay": "Хорошо",
+    "label_button_show_details": "Подробнее",
+    "label_error_details": "Подробности об ошибке"
+  },
+  "countrySelectorComponent": {
+    "label_button_cancel": "Отмена",
+    "placeholder_search": "Поиск"
+  },
+  "changePasswordPage": {
+    "description": "Минимум 8 символов, одна заглавная буква, один специальный символ и одна цифра обязательны.",
+    "error_invalid_password": "Неправильный пароль",
+    "label_authentication_api_failure": "Ошибка аутентификации API!",
+    "label_button_change_password": "Сменить пароль",
+    "label_invalid_password": "Неправильный пароль",
+    "label_new_password": "Новый пароль",
+    "label_retype_password": "Повторите новый пароль",
+    "placeholder_new_password": "Введите новый пароль",
+    "title": "Сменить пароль"
+  },
+  "changePasswordVerificationPage": {
+    "alert_problem_receiving_code_message": "Please check your phone number and if you are still facing the problem please email support@b21.io and quote the phone number you are using.",
+    "alert_success_change_password": "Your new password has been updated successfully. Please re-login to continue.",
+    "alert_verification_code_sent_successfully": "Verification code sent successfully",
+    "label_button_next": "Next",
+    "label_button_problem_receiving_code": "Problems receiving the code?",
+    "label_button_resend_code": "Resend Code",
+    "label_button_resend_code_timer": "Resend Code ({{timer}})",
+    "label_enter_code_below": "Enter the code sent to your mobile",
+    "title": "Change Password"
+  },
+  "collectAdditionalInformationPage": {
+    "alert_fill_data": "Пожалуйста, введите правильные данные.",
+    "label_button_next": "Далее",
+    "title": "Дополнительная информация"
+  },
+  "collectAddressPage": {
+    "alert_retry_states_list_loading": "Не удалось загрузить штаты! \nПопробуйте снова.",
+    "error_fields_detail": "Пожалуйста, заполните все данные",
+    "label_button_next": "Далее",
+    "title": "Адрес"
+  },
+  "collectDoBPage": {
+    "error_cannotSelectFutureDate": "Пожалуйста, выберите дату до сегодняшней даты",
+    "error_olderThan18": "Вы должны быть старше 18 лет, чтобы использовать наши услуги",
+    "error_youngerThan110": "Вы должны быть младше 110 лет, чтобы использовать наши услуги",
+    "label_button_done": "Готово",
+    "label_button_next": "Далее",
+    "placeholder_select_dob": "Выберите вашу дату рождения",
+    "title": "Дата рождения"
+  },
+  "collectUniqueIDPage": {
+    "alert_fill_data": "Пожалуйста, введите правильные данные.",
+    "label_agree_consent": "Я подтверждаю",
+    "label_button_next": "Далее",
+    "label_consent": "Я даю разрешение B21 Invest на поиск по различным базам данных с целью сбора следующей информации обо мне:",
+    "title": "Давайте безопасно подтвердим вашу личность"
+  },
+  "confirmCountryPage": {
+    "label_button_next": "Далее",
+    "label_country": "Страна",
+    "title": "Подтвердите вашу страну"
+  },
+  "confirmNamePage": {
+    "alert_fields_detail": "Пожалуйста, введите все данные",
+    "label_button_next": "Далее",
+    "title": "Подтвердите ваше имя"
+  },
+  "countryNotSupportedPage": {
+    "label_country_not_supported": "К сожалению, ваша страна в данный момент не поддерживается B21, возвращайтесь позже, так как мы постоянно расширяем наше покрытие!"
+  },
+  "customizeAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "пожалуйста, разблокируйте валюты, чтобы автоматически насстроить размещение",
+    "description": "Используйте кнопки плюс, минус и блокировка, чтобы настроить то, каким образом ваши доходы будут инвестированы. Разблокированные коины будут настроены автоматически.",
+    "title": "Настроить мой портфель"
+  },
+  "dashboardPortfolioListComponent": {
+    "label_moreOptions": "Дополнительные настройки"
+  },
+  "dashboardPage": {
+    "alert_button_buy": "Купить Коин",
+    "alert_button_sell": "Продать Коин",
+    "alert_exit_application": "Вы уверены, что хотите закрыть приложение?",
+    "alert_sell_buy_assets": "Вы хотите покупать или продавать?",
+    "error_no_coin_portfolio": "Вы еще не составили свой портфель.",
+    "label_button_invest_now": "Инвестируйте сейчас",
+    "label_cashBalance": "Баланс наличных",
+    "label_currentValue": "Текущая валюта",
+    "label_gain": "Прибыль",
+    "label_invested": "Инвестированно",
+    "label_myPortfolio": "Мой портфель",
+    "label_return": "Возвраты",
+    "title": "Панель управления",
+    "title_exit_application": "Выйти?"
+  },
+  "declareSourceOfFundsPage": {
+    "label_button_next": "Далее",
+    "title": "Указать источник средств"
+  },
+  "earnPage": {
+    "alert_success_b21_card": "Спасибо за бронирование вашей карты. Мы свяжемся с вами, как только карта будет доступна",
+    "description_invest_earn": "Первый депозит {{firstDepositValue}} принесет вам прибыль в размере {{firstEarnValue}} в токенах B21.\nКаждая последующая инвестиция минимум {{investValue}} принесет вам {{rewardB21Value}} в токенах B21.",
+    "description_invite_earn": "Пригласите друзей при помощи своего пригласительного кода. Когда они успешно завершат процесс регистрации, вы оба получите токены B21 стоимостью {{tokenValue}}.",
+    "description_stack_earn": "Инвестируйте представленные ниже токены, чтобы заработать до {{interest}}% за календарный год. Проценты будут выплачиваться ежемесячно.\nСредний и окончательный баланс в размере минимум {{b21AssetsValue}} токенов B21 необходим для того, чтобы иметь право на получение процентных выплат.",
+    "label_button_deposit_now": "Внести средства сейчас",
+    "label_button_more_details": "Подродности",
+    "label_button_reserve_now": "Забронировать сейчас",
+    "label_button_share_now": "Поделиться сейчас",
+    "label_button_buy_now": "Купить ссейчас",
+    "label_referral_code": "Ваш реферальный код",
+    "title": "Зарабатывайте",
+    "title_invest_earn": "Инвестируйте и заработайте",
+    "title_invite_earn": "Пригласите и заработайте",
+    "title_reserve_b21_card": "Забронируйте свою карту B21",
+    "title_stack_earn": "Инвестируйте и зарабатывайте"
+  },
+  "forgotPasswordPage": {
+    "alert_please_enter_valid_email": "Пожалуйста, введите действительный адрес электронной почты!",
+    "label_button_next": "Далее",
+    "label_email": "Email",
+    "placeholder_user_name": "Введите имя пользователя",
+    "title": "Забыли пароль"
+  },
+  "goalDashboardCardViewComponent": {
+    "label_button_buy_now": "Купить ссейчас"
+  },
+  "helpPage": {
+    "label_support_b21": "support@b21.io",
+    "label_support_mail": "Почта клиентской поддержки",
+    "title": "Помощь"
+  },
+  "languageSelectorComponent": {
+    "label_english": "Английский",
+    "label_japanese": "Японский",
+    "label_korean": "Корейский",
+    "label_button_cancel": "Отмена",
+    "label_russian": "Русский",
+    "label_spanish": "Испанский"
+  },
+  "legalPage": {
+    "title": "Юридические данные"
+  },
+  "loginPage": {
+    "alert_please_enter_valid_email": "Пожалуйста, введите действительный адрес электронной почты!",
+    "label_button_forgot_password": "Забыли пароль?",
+    "label_button_login": "Вход",
+    "label_button_sign_up": "Зарегистрироваться сейчас!",
+    "label_dont_have_account": "Нет аккаунта?",
+    "label_email": "Email",
+    "label_language": "Язык :",
+    "label_password": "Пароль",
+    "label_version": "Версия ",
+    "placeholder_enter_email": "Введите ваш адресс электронной почты",
+    "placeholder_enter_password": "Введите пароль здесь",
+    "title": "Вход"
+  },
+  "manageInvestmentAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "пожалуйста, разблокируйте валюты, чтобы автоматически насстроить размещение",
+    "description": "Используйте кнопки плюс, минус и блокировка, чтобы настроить то, каким образом ваши доходы будут инвестированы. Разблокированные коины будут настроены автоматически.",
+    "label_add_other_coins": "Добавить другие Коины",
+    "label_my_portfolio_allocation": "Расположение моего портфеля",
+    "title": "Расположение инвестиций"
+  },
+  "menuPage": {
+    "alert_complete_kyc": "Подтвердите ваш аккаунт.",
+    "alert_kyc_pending": "Подтверждение вашего KYC в ожидании.",
+    "alert_sure": "Пожалуйста, подтвердите",
+    "label_app_settings": "Настройки приложения",
+    "label_button_deposit": "Внести депозит на баланс наличных",
+    "label_button_help": "Помощь",
+    "label_button_investment_allocation": "Расположение инвестиций",
+    "label_button_language": "Язык",
+    "label_button_legal": "Юридические данные",
+    "label_button_logout": "Выход",
+    "label_button_profile": "Профиль",
+    "label_button_profit_loss_report": "Отчет о прибыли/потерях",
+    "label_button_security": "Безопасность",
+    "label_button_transaction_history": "История транзакций",
+    "label_button_withdraw": "Вывести деньги с баланса наличных",
+    "label_change_password": "Сменить пароль",
+    "label_disable_pin": "Запретить установку PIN-кода во время входа",
+    "label_enable_pin": "Разрешить установку PIN-кода во время входа",
+    "label_logout_popup_description": "Подтверждаете выход?",
+    "label_my_account": "Мой аккаунт",
+    "label_remove_pin": "Удалить PIN-код",
+    "label_version": "Версия",
+    "title": "Меню",
+    "title_alert_kyc": "Требуется KYC",
+    "title_logout_popup": "Выйти?"
+  },
+  "portfolioAllocationSummaryPage": {
+    "description": "Ваше Расположение - это то, как ваши новые инвестиции будут инвестированы.",
+    "label_button_customize": "Настроить",
+    "title": "Резюме"
+  },
+  "profitLossReportPage": {
+    "alert_send_email_success": "Письмо успешно отправлено...",
+    "description": "Получайте статистику по вашей прибыли/потерям на ваш электронный адрес.",
+    "label_button_submit": "Подтвердить",
+    "label_excel": "Excel",
+    "label_pdf": "PDF",
+    "label_select_year": "Выберите год",
+    "label_year_to_date": " YTD",
+    "title": "Отчет о прибыли/потерях"
+  },
+  "pinCodeGenerateComponent": {
+    "label_enter_pin": "Шаг 1: Введите PIN-код",
+    "label_confirm_pin": "Шаг 2: Подтвердите PIN-код"
+  },
+  "pinCodeValidateComponent": {
+    "label_enter_pin": "Шаг 1: Введите PIN-код"
+  },
+  "addMobilePage": {
+    "alert_enter_mobile_number": "Пожалуйста, введите действительный номер мобильного телефона.",
+    "description": "Вы получите SMS с кодом для подтверждения вашего номера мобильного телефона.",
+    "label_button_next": "Далее",
+    "label_phone_number": "Номер телефона",
+    "placeholder_phone_number": "Номер телефона",
+    "title": "Добавить номер мобильного"
+  },
+  "addPaymentInstrumentDynamicFieldsPage": {
+    "alert_successfully_add_account": "Вы успешно добавили аккаунт.",
+    "label_button_next": "Далее",
+    "title": "Добавить данные о {{title}}"
+  },
+  "addPaymentInstrumentWebViewPage": {
+    "title": "Предоставить данные о {{piTypeName}}"
+  },
+  "addPaymentInstrumentWidgetPage": {
+    "description": "Вы будете перенаправлены к {{provider}}, где вы сможете завершить процесс добавления аккаунта.",
+    "label_account_name": "Название аккаунта",
+    "label_not_supported": "Не поддерживается",
+    "label_process_complete": "Вы успешно добавили аккаунт. Вернитесь назад, чтобы выбрать и продолжить процесс оплаты.",
+    "label_start_process": "Начать процесс",
+    "placeholder_account_name": "Введите название аккаунта",
+    "title": "Предоставить данные о {{piTypeName}}"
+  },
+  "alternateLoginPage": {
+    "alert_skip_pin_setup": "Вы пропускаете установку PIN-кода для входа. Пожалуйста, подтвердите.",
+    "label_button_login": "Войти снова",
+    "label_button_skip_setup": "Пропустить установку PIN-кода",
+    "title_generate_pin": "Шаг 1: Введите PIN-код",
+    "title_generate_pin_confirm": "Шаг 2: Подтвердите PIN-код",
+    "title_setup": "Создать PIN-код для входа",
+    "title_validate": "PIN-код для входа",
+    "title_validate_pin": "Введите PIN-код"
+  },
+  "amountCalculatorComponent": {
+    "label_coin_amount": "Сумма ({{currencyCode}})",
+    "label_coin_quantity": "Количество Коинов ({{cryptoCurrencyCode}})",
+    "label_crypto_currency_coins": "{{cryptoCurrencyCode}} Коины",
+    "label_currency_value": "{{currencyCode}} Стоимость",
+    "placeholder_amount": "Введите сумму",
+    "placeholder_quantity": "Введите количество"
+  },
+  "buySingleAssetPage": {
+    "description": "Количество Коинов приблизительное. Фактическое количество может варьироваться в зависимости от рыночной цены на момент исполнения.",
+    "error_deposit_amount_limit": "Стоимость актива должна составлять от {{minAmount}} до {{maxAmount}}.",
+    "error_invalid_coin": "{{assetCurrencyCode}} коин должен составлять от {{minAmount}} до {{maxAmount}}.",
+    "error_more_than_available_cash_balance": "Введенная сумма больше доступного баланса наличных.",
+    "label_button_next": "Далее",
+    "label_cash_balance": "Текущий баланс наличных",
+    "label_use_cash_balance": "Использовать баланс наличных",
+    "label_use_full_cash_balance": "Использовать весь баланс наличных",
+    "title": "Купить Коины"
+  },
+  "cashBalanceActionsPage": {
+    "alert_complete_kyc": "Завершите ваш KYC процесс для вывода средст.",
+    "alert_kyc_pending": "Подтверждение вашего KYC в ожидании. Как только он будет подтвержден, вы сможете вывести средства.",
+    "label_button_deposit_to_cash_balance": "Внести депозит на баланс наличных",
+    "label_button_invest": "Инвестировать в текущее Расположение",
+    "label_button_sell_from_portfolio": "Продать из Портфеля",
+    "label_button_withdraw_cash_balance": "Вывести деньги с баланса наличных",
+    "title": "Баланс наличных",
+    "title_alert_kyc": "Требуется KYC"
+  },
+  "coinInfoPage": {
+    "label_button_asset_transaction": "{{buttonTitle}} сейчас",
+    "label_buy": "Купить",
+    "label_coin_name": "Имя Коина",
+    "label_exchange_rate": "Обменный курс",
+    "label_sell": "Продать",
+    "title": "{{title}} Коины"
+  },
+  "common": {
+    "alert_api_failure": "Не удалось завершить процесс. Попробуйте позже.",
+    "alert_email_already_registered": "Адрес электронной почты уже зарегистрирован!",
+    "alert_fill_details": "Пожалуйста, заполните все данные",
+    "alert_session_expire": "Время вашего сеанса истекло. Пожалуйста, войдите, используя свои учетные данные.",
+    "label_app_name": "B21 Invest",
+    "label_bank_account": "Банковский счет",
+    "label_share_content": "Мне нравится инвестировать в криптовалюты при помощи B21 Invest. Вы можете начать делать то же самое. Создайте свое портфолио сегодня! Используйте мой код ({{code}}) в процессе регистрации, чтобы заработать реферальные токены.",
+    "label_upgrade_now": "( Обновить сейчас )",
+    "title_session_expire": "Время сеанса истекло"
+  },
+  "confirmTransactionPage": {
+    "label_button_invest_now": "Подтвердить",
+    "label_buy_single_asset": "Купить один актив, используя {{piTypeDisplayName}}.",
+    "label_card_name": "({{AcctDisplayName}})",
+    "label_cash_balance_after_investment": "Баланс наличных после транзакции",
+    "label_deposit_cash_balance_using_bank_or_card": "Внести депозит на баланс наличных, используя {{piTypeDisplayName}}.",
+    "label_investment_amount": "Сумма транзакции",
+    "label_investment_flow": "Инвестировать в портфель, используя {{piTypeDisplayName}}.",
+    "label_purpose_not_define": "Цель транзакции не определена.",
+    "label_sell_full_portfolio": "Продать всю сумму из портфеля и внести депозит на баланс наличных.",
+    "label_sell_multiple_assets": "Продать несколько активов из портфеля и внести депозит на баланс наличных.",
+    "label_sell_partial_portfolio": "Проадь часть суммы из портфеля и внести депозит на баланс наличных.",
+    "label_sell_single_asset": "Продать один актив из портфеля и внести депозит на баланс наличных.",
+    "label_sold_assets": "Активы для продажи",
+    "label_source": "Источник",
+    "label_under_development": "Это находится в разработке",
+    "label_withdraw_full": "Вывести всю сумму с баланса наличных в Банк.",
+    "label_withdraw_partial": "Вывести часть суммы с баланса наличных в Банк.",
+    "title": "Подтвердить данные транзакции"
+  },
+  "registrationStatusPage": {
+    "label_button_Invest_now": "Инвестировать сейчас",
+    "label_button_skip": "Пропустить",
+    "description": "Вы предоставили всю информацию, которая нам нужна, чтобы подтвердить вашу личность в B21 Investor. Теперь давайте введем некоторые краткие детали оплаты, чтобы завершить ваши инвестицию. Помните, что инвестирование в цифровые активы нестабильно и сопряжено с рисками, мы рекомендуем инвестировать с умом.",
+    "title": "Поздравляем!"
+  },
+  "depositAmountPage": {
+    "description": "Сколько вы хотите внести на баланс наличных?",
+    "error_invalid_amount": "Сумма должна составлять от {{minAmount}} до {{maxAmount}}.",
+    "label_button_next": "Далее",
+    "placeholder_enter_amount": "Введите сумму",
+    "title": "Внести сумму"
+  },
+  "emailConfirmationPage": {
+    "alert_checkEmailAndContactSupport": "Проверьте ваш email. и если у вас все еще возникают проблемы, пожалуйста, напишите по адресу support@b21.io с вашего зарегистрированного адреса электронный почты.",
+    "alert_emailNotVerified": "Ваш email еще не был подтвержден, пожалуйста, подтвердите его, чтобы продолжить.",
+    "alert_verificationLinkSend": "Нажмите на ссылку для подтверждения email, отправленную на ваш зарегистрированный адрес электронной почты",
+    "description": "Нажмите на ссылку для подтверждения, которая была отправлена b21 на электронную почту {{email}}",
+    "label_button_confirmed": "Я подтвердил(а)",
+    "label_button_edit_email": "Редактировать Email",
+    "label_button_problemsReceivingCode": "Проблемы сс получением email?",
+    "label_button_resend_email": "Отправить Email снова",
+    "label_button_resend_email_timer": "Отправляем Email снова ({{timer}})",
+    "title": "Подтвердите ваш Email"
+  },
+  "emailEditConfirmationPage": {
+    "label_button_update_email": "Обновить Email адрес",
+    "label_newEmail": "Новый Email",
+    "label_oldEmail": "Старый Email",
+    "title": "Подтвердить редактирование Email"
+  },
+  "emailEditPage": {
+    "alert_enter_valid_email": "Пожалуйста, введите действительный адрес электронной почты!",
+    "label_button_done": "Готово",
+    "label_email": "Email",
+    "placeholder_email": "Введите ваш нолвый email",
+    "title": "Обновить email"
+  },
+  "investmentAmountPage": {
+    "description": "Сколько вы хотите инвестировать сегодня?",
+    "error_invalid_amount": "Сумма должна составлять от {{minAmount}} до {{maxAmount}}.",
+    "error_minimum_cash_balance": "Требуется минимум {{minAmount}} для инвестирования.",
+    "label_button_next": "Далее",
+    "label_cash_balance": "Текущий баланс наличных",
+    "label_use_cash_balance": "Использовать баланс наличных",
+    "label_use_max_amount": "Использовать весь баланс наличных",
+    "placeholder_enter_amount": "Введите сумму",
+    "title": "Сумма инвестирования"
+  },
+  "selectPaymentInstrumentPage": {
+    "error_not_supported": "Этот метод оплаты не поддерживает добавление",
+    "label_add_new_debit_card": "Добавить новый {{piTypeName}}",
+    "label_nothing_saved": "{{piTypeName}} не был добавлен",
+    "label_saved": "Сохраненный {{piTypeName}}",
+    "label_use_this": "Использовать этот",
+    "title": "{{title}}"
+  },
+  "selectPaymentInstrumentTypePage": {
+    "error_coming_soon": "Скоро будет доступен",
+    "title": "Выберите метод оплаты"
+  },
+  "selectSellAssetsOptionPage": {
+    "description": "Здесь вы можете продавать ваши активы и конвертировать их в баланс наличных",
+    "label_advanced_sell_assets": "Продвинутые активы для продажи",
+    "label_advanced_sell_assets_note": "* Продать конкретные активы из вашего портфеля.",
+    "label_sell_assets": "Продать активы",
+    "title": "Меню продажи активов"
+  },
+  "selectTransferServiceTypePage": {
+    "title": "Выберите вид услуги"
+  },
+  "sellAssetsAdvancedPage": {
+    "description": "Выберите коин, который вы хотите продать.",
+    "error_invalid_amount": "Сумма должна составлять от {{minAmount}} до {{maxAmount}}.",
+    "error_trying_to_sell_more_coins_than_you_have": "Вы пытаетесь продать больше коинов, чем у вас есть!",
+    "label_button_next": "Далее",
+    "label_current_asset_value": "Стоимость текущих активов",
+    "title": "Продажа продвинутых активов"
+  },
+  "sellAssetsAmountPage": {
+    "description": "Продавайте часть или все из вашего портфеля. Если вы выберите продать часть вашего портфеля, то мы пропорционально продадим активы из вашего портфеля и внесем средства на ваш баланс наличных. Если вы выберите все, то мы продадим все ваши активы и пополним баланс наличных.",
+    "error_max_amount": "Сумма вывода средств должна составлять от {{minAmount}} до {{maxAmount}}.",
+    "label_button_next": "Далее",
+    "label_current_value": "Стоимость текущих активов",
+    "label_withdraw_all": "Продать все",
+    "placeholder": "Введите сумму для вывода здесь",
+    "title": "Продать активы"
+  },
+  "sellSingleAssetPage": {
+    "description": "Количество Коинов приблизительное. Фактическое количество может варьироваться в зависимости от рыночной цены на момент исполнения.",
+    "label_button_next": "Далее",
+    "label_current_coin_balance": "Текущий баланс активов",
+    "error_invalid_coin": "{{assetCurrencyCode}} коин должен составлять от {{minAmount}} до {{maxAmount}}.",
+    "error_sell_more_coin": "Вы пытаетесь продать больше, чем у вас есть",
+    "label_sell_all": "Продать все",
+    "title": "Продать Коины"
+  },
+  "setPasswordPage": {
+    "alert_invalid_password": "Неправильный пароль",
+    "alert_optional": "Реферальный код принесет вам токены B21. Попросите у своих друзей реферальный код",
+    "description": "Пароль должен содержать минимум 8 символов, одну заглавную букву, один специальный символ и одну цифру.",
+    "label_button_next": "Далее",
+    "label_password": "Введите ваш пароль",
+    "label_referral_code": "Реферальный код",
+    "label_retype_password": "Введите ваш пароль снова",
+    "placeholder_password": "Введите пароль здесь",
+    "placeholder_referral_code": "Введите свой реферальный код",
+    "placeholder_retype_password": "Введите пароль здесь снова",
+    "title": "Установите ваш пароль"
+  },
+  "signUpPage": {
+    "label_button_next": "Далее",
+    "label_email": "Email",
+    "placeholder_email": "Введите ваш адрес электронной почты",
+    "label_first_name": "Имя",
+    "placeholder_first_name": "Введите ваше имя",
+    "label_last_name": "Фамилия",
+    "placeholder_last_name": "Введите вашу фамилию",
+    "alert_please_enter_valid_email": "Пожалуйста, введите действительный адрес электронной почты!",
+    "title": "Зарегистрироваться"
+  },
+  "transactionInstructionsPage": {
+    "description1": "Чтобы внести средства на ваш аккаунт, пожалуйста, переведите средства с вашего банковского счета на банковские реквизиты, указанные ниже. Не забудьте указать ",
+    "description2": "справочный номер",
+    "description3": ". Если вы не предоставите справочный номер, это может вызвать задержки в зачислении средств.",
+    "label_button_done": "Готово",
+    "title": "Инструкции по транзакциям"
+  },
+  "transactionStatusPage": {
+    "label_button_cancel": "Отмена",
+    "label_button_copy": "Скопировать",
+    "label_button_report_issue": "Сообщить о проблеме",
+    "label_button_done": "Готово",
+    "label_failure_button": "Начать заново",
+    "label_failure_desc": "Мы не можем обработать вашу транзакцию в данный момент. Подождите и попробуйте снова.",
+    "label_success_desc": "Мы обрабатываем вашу транзакцию, если вы выбрали Баланс Наличных, то зачисление произойдет немедленно, если вы выбрали другой метод, то обработка займет 3 - 5 рабочих дней. Мы сообщим вам, как только ваш заказ будет обработан.",
+    "title": "Успешная транзакция",
+    "title_failure": "Сбой транзакции"
+  },
+  "verifyMobilePage": {
+    "label_button_next": "Далее",
+    "label_enter_code_below": "Введите код, который был отправлен на ваш телефон",
+    "label_problem_receiving_code": "Не получили код?",
+    "alert_problem_receiving_code_message": "Проверьте ваш номер телефона, и если у вас все еще возникают проблемы, пожалуйста, напишите по адресу support@b21.io и укажите используемый вами номер телефона.",
+    "label_button_resend_code": "Отправить код снова",
+    "label_button_resend_code_timer": "Отправляем код снова ({{timer}})",
+    "alert_verification_code_sent_successfully": "Код подтверждения успешно отправлен",
+    "title": "Подтверждение номера мобильного телефона"
+  },
+  "withdrawAmountPage": {
+    "description": "Сколько вы хотите вывести ссегодня?",
+    "error_invalid_amount": "Сумма должна составлять от {{minAmount}} до {{maxAmount}}.",
+    "error_invalid_input": "Некорректное значение",
+    "error_more_than_have": "Вы пытаетесь вывести больше, чем у вас есть.",
+    "error_not_enough_cash_balance": "У вас недостаточно баланса наличных для вывода.",
+    "label_button_go_back": "Назад",
+    "label_button_next": "Далее",
+    "label_cash_balance": "Текущий баланс наличных",
+    "label_use_max_amount": "Использовать весь баланс наличных",
+    "placeholder_enter_amount": "Введите сумму",
+    "title": "Вывести сумму"
+  },
+  "welcomePage": {
+    "description_invest_earn": "Первый депозит {{firstDepositValue}} принесет вам {{firstEarnValue}} в токенах B21.\nКаждая последующая инвестиция минимум {{investValue}} принесет вам {{rewardB21Value}} в токенах B21.",
+    "description_invite_earn": "Пригласите друзей при помощи своего пригласительного кода. Когда они успешно завершат процесс регистрации, вы оба получите токены B21 стоимостью {{tokenValue}}.",
+    "description_stack_earn": "Инвестируйте представленные ниже токены, чтобы заработать до {{interest}}% за календарный год. Проценты будут выплачиваться ежемесячно.\nСредний и окончательный баланс в размере минимум {{b21AssetsValue}} токенов B21 необходим для того, чтобы иметь право на получение процентных выплат.",
+    "description_static_screen_one": "Привет, мы - B21. Наша миссия проста. С помощью приложения, которое вы сейчас держите в руках, мы собираемся облегчить для вас процесс инвестирования в криптовалюту.",
+    "description_static_screen_second": "С помощью нашего простого интерфейса мы будем сопровождать вас на каждом шаге вашего пути. Мы возьмем на себя все технические моменты, чтобы вы могли легко инвестировать, видеть свой прогресс и получать награды за достижения!\n\nСчастливого инвестирования",
+    "description_upgrade_to_vip": "Станьте VIP-участником B21, имея всего 300 токенов B21 в вашем портфолио, и получите более выгодные тарифы и эксклюзивные бонусы.",
+    "label_button_next": "Далее",
+    "title": "Добро пожаловать",
+    "title_earn": "Заработать",
+    "title_invest": "Инвестировать",
+    "title_invest_earn": "Инвестируйте и заработайте",
+    "title_invite_earn": "Пригласите и заработайте",
+    "title_stack_earn": "Инвестируйте и заработайте",
+    "title_VIP_level": "VIP-уровень"
+  },
+  "verifyUpdateMobilePage": {
+    "alert_problem_receiving_code_message": "Проверьте ваш номер телефона, и если у вас все еще возникают проблемы, пожалуйста, напишите по адресу support@b21.io и укажите используемый вами номер телефона.",
+    "alert_success_change_mobile": "Номер вашего мобильного телефона был успешно обновлен.",
+    "alert_verification_code_sent_successfully": "Код подтверждения успешно отправлен",
+    "description": "A verification code has been sent to your new phone number. please enter it below.",
+    "label_button_done": "Готово",
+    "label_problem_receiving_code": "Не получили код?",
+    "label_button_resend_code": "Отправить код снова",
+    "label_button_resend_code_timer": "Отправляем код снова ({{timer}})",
+    "title": "Подтвердите ваш номер мобильного телефона"
+  },
+  "verifyUpdateEmailPage": {
+    "alert_success_change_email": "Ссылка для подтверждения адреса электронной почты отправлена. Подтвердите ваш адрес электронной почты, нажав на ссылку, чтобы успешно завершить процесс.",
+    "label_button_done": "Готово",
+    "label_newEmail": "Новый Email",
+    "label_oldEmail": "Старый Email",
+    "title": "Подтвердить редактирование Email"
+  },
+  "userProfilePage": {
+    "label_refer_friend": "Пригласить друга",
+    "label_camera": "Камера",
+    "label_gallery": "Галерея",
+    "title": "Мой профиль"
+  },
+  "uploadDocumentPage": {
+    "alert_fill_data": "Пожалуйста, внесите все данные.",
+    "description_add_photo_id": "Добавьте фотографию вашего действительного государственного удостоверения личности.",
+    "description_upload_utility_bill": "Добавьте фотографию вашего счета за коммунальные услуги или выписки из банка в качестве подтверждения вашего адреса.",
+    "label_add_photo_id": "Выбрать или сделать фото",
+    "label_address_proof": "Подтверждение вашего адреса",
+    "label_button_next": "Далее",
+    "label_button_upload_utility_bill": "Выбрать или сделать фото",
+    "label_camera": "Камера",
+    "label_choose_your_government_id": "Выберите тип государственного удостоверения личности",
+    "label_driver_license": "Водительские права",
+    "label_enter_government_id_number": "Введите государственный идентификационный номер",
+    "label_gallery": "Галерея",
+    "label_government_issued_id": "Ваше государственное удостоверение личности",
+    "label_id_card": "ID Карта",
+    "label_passport": "Паспорт",
+    "label_upload_utility_bill": "Загрузить ваш Счет за коммунальные услуги / Выписку из банка",
+    "title": "Для большей безопасности, добавьте следующее"
+  },
+  "updateMobilePage": {
+    "alert_enter_mobile_number": "Пожалуйста, введите действительный номер мобильного телефона.",
+    "label_button_next": "Далее",
+    "label_new_phone": "Новый номер телефона",
+    "placeholder_phone_number": "Номер телефона",
+    "title": "Обновить номер мобильного телефона"
+  },
+  "updateEmailPage": {
+    "error_please_enter_valid_email": "Пожалуйста, введите действительный адрес электронной почты!",
+    "label_button_next": "Далее",
+    "label_email": "Email",
+    "placeholder_new_email": "Введите ваш нолвый email",
+    "title": "Обновить email"
+  },
+  "transactionHistoryPage": {
+    "label_cashBalance": "Баланс наличных",
+    "label_complete": "Успешно",
+    "label_failed": "Сбой",
+    "label_no_transaction_history": "Нет истории транзакций",
+    "label_pending": "В ожидании",
+    "title": "История транзакций"
+  },
+  "transactionDetailPage": {
+    "label_cashBalance": "Баланс наличных",
+    "label_complete": "Успешно",
+    "label_Fees": "Комиссия",
+    "label_pending": "В ожидании",
+    "label_purchase_price": "Цена покупки",
+    "label_purchased": " Куплено",
+    "label_sell_price": "Цена продажи",
+    "label_sold": " Продано",
+    "label_transaction_amount": "Сумма транзакции",
+    "title": "Детали транзакции"
+  },
+  "termsAndConditionsPage": {
+    "label_button_done": "Готово",
+    "label_agree_terms_and_condition": "Я согласен с условиями использования",
+    "title": "Условия использования"
+  },
+  "resetPasswordPage": {
+    "alert_password_changed": "Ваш пароль обновлен, пожалуйста, войдите, используя новый пароль.",
+    "error_enter_valid_verification_code": "Введите действительный код подтверждения",
+    "error_invalid_password": "Неправильный пароль",
+    "label_button_next": "Далее",
+    "label_enter_code": "Введите код подтверждения",
+    "label_password": "Введите ваш пароль",
+    "label_retype_password": "Введите ваш пароль снова",
+    "placeholder_password": "Введите пароль здесь",
+    "placeholder_retype_password": "Введите пароль здесь снова",
+    "title": "Сменить пароль"
+  },
+  "yearSelectorComponent": {
+    "label_button_cancel": "Отмена"
+  },
+  "stateSelectorComponent": {
+    "label_button_cancel": "Отмена"
+  },
+  "simpleSelectorComponent": {
+    "label_button_cancel": "Отмена"
+  },
+  "cashBalanceInfoPage": {
+    "description": "Создайте депозит и держите денежные средства доступными для легкого и быстрого инвестирования в свое портфолио или одну валюту",
+    "label_button_deposit_now": "Внести средства сейчас",
+    "label_cash_balance": "Денежных баланс",
+    "title": "Информация о денежном балансе"
+  },
+  "upgradeToVIPPage": {
+    "label_button_continue": "Продолжить",
+    "description": "Станьте VIP-участником B21, имея всего 300 токенов B21 в вашем портфолио, и получите более выгодные тарифы и эксклюзивные бонусы.",
+    "title": "Перейти на VIP"
+  }
+}

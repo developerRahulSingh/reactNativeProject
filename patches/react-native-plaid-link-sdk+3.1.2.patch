@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-native-plaid-link-sdk/android/src/main/java/com/plaid/PlaidModule.kt b/node_modules/react-native-plaid-link-sdk/android/src/main/java/com/plaid/PlaidModule.kt
+index e189cb6..b30637e 100644
+--- a/node_modules/react-native-plaid-link-sdk/android/src/main/java/com/plaid/PlaidModule.kt
++++ b/node_modules/react-native-plaid-link-sdk/android/src/main/java/com/plaid/PlaidModule.kt
+@@ -44,6 +44,7 @@ class PlaidModule internal constructor(reactContext: ReactApplicationContext) :
+     private const val COUNTRY_CODES = "countryCodes"
+     private const val LANGUAGE = "language"
+     private const val ENV = "env"
++    private const val SELECT_ACCOUNT = "selectAccount"
+     private const val LINK_CUSTOMIZATION_NAME = "linkCustomizationName"
+     private const val OAUTH_NONCE = "oauthNonce"
+     private const val PUBLIC_TOKEN = "publicToken"
+@@ -117,6 +118,10 @@ class PlaidModule internal constructor(reactContext: ReactApplicationContext) :
+         extrasMap[ACCOUNT_SUBTYPES] = obj.getJSONObject(ACCOUNT_SUBTYPES).toString()
+       }
+ 
++      if(obj.has(SELECT_ACCOUNT)) {
++        extrasMap[SELECT_ACCOUNT] = "true"
++      }
++
+       if (obj.has(COUNTRY_CODES)) {
+         val countryCodes = ArrayList<String>()
+         jsonArray = obj.getJSONArray(COUNTRY_CODES)

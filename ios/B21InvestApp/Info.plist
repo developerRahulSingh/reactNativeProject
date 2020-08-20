@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BASE_URL</key>
+	<string>https://apigw.b21.io/B21Crypto/api/</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<string>true</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(APP_DISPLAY_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(APP_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FRESH_CHAT_APP_ID</key>
+	<string>ea9852f3-9172-4088-9919-a1b42bd1ee33</string>
+	<key>FRESH_CHAT_APP_KEY</key>
+	<string>1fdbe425-d06a-4431-8fb4-a25dee936b48</string>
+	<key>FRESH_CHAT_DOMAIN</key>
+	<string>https://msdk.us2.freshchat.com</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+		<string>mailto</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This application would require to access your photos and media in order for you to upload the document pictures and profile image.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This application would like to access your camera to capture your documents and profile picture using your device camera.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Enabling Face ID allows you quick and secure access to your account.</string>
+	<key>NSLocationAlwaysAndWhenInUsageDescription</key>
+	<string>Your location is required for display user current location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location is required for display user current location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is required for display user current location</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This application would require to access your photos in order for you to upload the document pictures and profile image.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This application would require to access your photos in order for you to upload the document pictures and profile image.</string>
+	<key>SPassword</key>
+	<string>WmRfRyb01ixuhZbpRQkI</string>
+	<key>SUserName</key>
+	<string>B21CryptoWalletProdAPI@Bank21.com</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

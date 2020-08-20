@@ -1,0 +1,687 @@
+{
+  "appUpdatePage": {
+    "description": "A new version of the application is available. It is required for you to update to the latest version before you can continue to use the application.",
+    "label_button_update_now": "Update Now",
+    "label_installed_version_description": "You have currently {{version}} installed in you device.",
+    "label_new_version_available": "New Version Available",
+    "title": "Update Required"
+  },
+  "actionModelComponent": {
+    "label_button_cancel": "Cancel",
+    "label_select_image_from": "Select image from"
+  },
+  "buildPortfolioPage": {
+    "description": "Tap on a card to add a Coin to your portfolio.",
+    "label_button_next": "Next",
+    "title": "Build my Portfolio"
+  },
+  "buildPortfolioStatusPage": {
+    "description": "Awesome job creating your portfolio!\n\n You will be later able to alter these allocations from the application menu.\n\nTo get started with your investment, let us securely verify your identity.",
+    "label_button_verify_me_now": "Done",
+    "title": "My Portfolio"
+  },
+  "commonAlertComponent": {
+    "label_button_cancel": "Cancel",
+    "label_button_copy_error": "Copy Error",
+    "label_button_okay": "OK",
+    "label_button_show_details": "Show Details",
+    "label_error_details": "Error Detail"
+  },
+  "countrySelectorComponent": {
+    "label_button_cancel": "Cancel",
+    "placeholder_search": "Search"
+  },
+  "changePasswordPage": {
+    "description": "A minimum of 8 characters, one capital letter, one special character, and one number are mandatory.",
+    "error_invalid_password": "Invalid Password",
+    "label_authentication_api_failure": "Authenticate API failure!",
+    "label_button_change_password": "Change Password",
+    "label_invalid_password": "Invalid Password",
+    "label_new_password": "New Password",
+    "label_retype_password": "Re-enter New Password",
+    "placeholder_new_password": "Enter New Password",
+    "title": "Change Password"
+  },
+  "changePasswordVerificationPage": {
+    "alert_problem_receiving_code_message": "Please check your phone number and if you are still facing the problem please email support@b21.io and quote the phone number you are using.",
+    "alert_success_change_password": "Your new password has been updated successfully. Please re-login to continue.",
+    "alert_verification_code_sent_successfully": "Verification code sent successfully",
+    "label_button_next": "Next",
+    "label_button_problem_receiving_code": "Problems receiving the code?",
+    "label_button_resend_code": "Resend Code",
+    "label_button_resend_code_timer": "Resend Code ({{timer}})",
+    "label_enter_code_below": "Enter the code sent to your mobile",
+    "title": "Change Password"
+  },
+  "collectAdditionalInformationPage": {
+    "alert_fill_data": "Please fill correct details.",
+    "label_button_next": "Next",
+    "title": "Additional information"
+  },
+  "collectAddressPage": {
+    "alert_retry_states_list_loading": "Could not load states! \nPlease retry.",
+    "error_fields_detail": "Please fill all details",
+    "label_button_next": "Next",
+    "title": "Address"
+  },
+  "collectDoBPage": {
+    "error_cannotSelectFutureDate": "Please select a date prior to today's date",
+    "error_olderThan18": "You need to be older than 18 to use our service",
+    "error_youngerThan110": "You need to be younger than 110 to use our service",
+    "label_button_done": "Done",
+    "label_button_next": "Next",
+    "placeholder_select_dob": "Select your date of birth",
+    "title": "Date of birth"
+  },
+  "collectUniqueIDPage": {
+    "alert_fill_data": "Please fill correct details.",
+    "label_agree_consent": "I agree",
+    "label_button_next": "Next",
+    "label_consent": "I give B21 Invest permission to search multiple databases to gather the following pieces of information about me:",
+    "title": "Let's securely verify your identity"
+  },
+  "confirmCountryPage": {
+    "label_button_next": "Next",
+    "label_country": "Country",
+    "title": "Confirm Your Country"
+  },
+  "confirmNamePage": {
+    "alert_fields_detail": "Please fill all details",
+    "label_button_next": "Next",
+    "title": "Confirm Your Name"
+  },
+  "countryNotSupportedPage": {
+    "label_country_not_supported": "Unfortunately your country is not supported by B21 at this time, check back soon as we are constantly expanding our reach!"
+  },
+  "customizeAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "please unlock currencies to auto adjust allocations",
+    "description": "Use the plus, minus and lock buttons to customize how your incoming funds will be invested. Unlocked coins will adjust automatically.",
+    "label_button_save": "Save",
+    "title": "Customize My Portfolio"
+  },
+  "dashboardPortfolioListComponent": {
+    "label_moreOptions": "More Options"
+  },
+  "dashboardPage": {
+    "alert_exit_application": "Are you sure you want to close the application?",
+    "alert_sell_buy_assets": "Do you want to buy or sell?",
+    "error_no_coin_portfolio": "You have not built your portfolio yet.",
+    "label_button_buy": "Buy Coin",
+    "label_button_deposit": "Deposit",
+    "label_button_invest_now": "Invest Now",
+    "label_button_sell": "Sell Coin",
+    "label_cashBalance": "Cash Balance",
+    "label_currentValue": "Current Value",
+    "label_gain": "Gains",
+    "label_invested": "Invested",
+    "label_myPortfolio": "My Portfolio",
+    "label_return": "Returns",
+    "title": "Dashboard",
+    "title_exit_application": "Exit?"
+  },
+  "declareSourceOfFundsPage": {
+    "label_button_next": "Next",
+    "title": "Declare Source of Funds"
+  },
+  "depositCoinPage": {
+    "label_button_Next": "Next",
+    "label_buy": "Buy",
+    "label_coin_name": "Coin Name",
+    "label_exchange_rate": "Exchange Rate",
+    "label_sell": "Sell",
+    "title": "Deposit Coin"
+  },
+  "earnPage": {
+    "alert_success_b21_card": "Thank you for reserving your card. We will reach out to you as soon as the card is available.",
+    "description_invest_earn": "First deposit of {{firstDepositValue}} earns you {{firstEarnValue}} in B21 tokens.\nEvery subsequest investment of minimum {{investValue}}, earns you {{rewardB21Value}} in B21 tokens.",
+    "description_invite_earn": "Invite your friends using your invite code. Once they successfully complete the signup process, you both will earn B21 tokens worth {{tokenValue}}.",
+    "description_stack_earn": "Stake the below tokens to earn up to a return of {{interest}}% per annum. Interest will be paid monthly.\nAn average and ending balance of minimum {{b21AssetsValue}} B21 tokens is needed to be eligible for the interest payment.",
+    "label_button_deposit_now": "Deposit Now",
+    "label_button_more_details": "Details",
+    "label_button_reserve_now": "Reserve now",
+    "label_button_share_now": "Share Now",
+    "label_button_buy_now": "Buy Now",
+    "label_referral_code": "Your Referral Code",
+    "title": "Earn",
+    "title_invest_earn": "Invest & Earn",
+    "title_invite_earn": "Invite & Earn",
+    "title_reserve_b21_card": "Reserve your B21 Card",
+    "title_stack_earn": "Stake & Earn"
+  },
+  "forgotPasswordPage": {
+    "alert_please_enter_valid_email": "Please enter a valid email address!",
+    "label_button_next": "Next",
+    "label_email": "Email",
+    "placeholder_user_name": "Enter User Name",
+    "title": "Forgot Password"
+  },
+  "goalDashboardCardViewComponent": {
+    "label_button_buy_now": "Buy Now"
+  },
+  "helpPage": {
+    "label_chat": "Chat",
+    "label_chat_with_support": "Chat with support team",
+    "label_support_b21": "support@b21.io",
+    "label_support_mail": "Support Mail",
+    "title": "Help"
+  },
+  "languageSelectorComponent": {
+    "label_english": "English",
+    "label_japanese": "Japanese",
+    "label_korean": "Korean",
+    "label_button_cancel": "Cancel",
+    "label_russian": "Russian",
+    "label_spanish": "Spanish"
+  },
+  "legalPage": {
+    "title": "Legal"
+  },
+  "loginPage": {
+    "alert_please_enter_valid_email": "Please enter a valid email address!",
+    "label_button_forgot_password": "Forgot Password?",
+    "label_button_login": "Login",
+    "label_button_sign_up": "Sign Up Now!",
+    "label_dont_have_account": "Don't have account?",
+    "label_email": "Email",
+    "label_language": "Language :",
+    "label_password": "Password",
+    "label_version": "Version ",
+    "placeholder_enter_email": "Enter your email address",
+    "placeholder_enter_password": "Enter password here",
+    "title": "Login"
+  },
+  "manageInvestmentAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "please unlock currencies to auto adjust allocations",
+    "description": "Use the plus, minus and lock buttons to customize how your incoming funds will be invested. Unlocked coins will adjust automatically.",
+    "label_add_other_coins": "Add Other Coins",
+    "label_my_portfolio_allocation": "My Portfolio Allocation",
+    "title": "Investment Allocation"
+  },
+  "menuPage": {
+    "alert_complete_kyc": "Verify your account.",
+    "alert_kyc_pending": "Your KYC verification is pending.",
+    "alert_sure": "Please confirm",
+    "label_app_settings": "App Settings",
+    "label_button_deposit": "Deposit to Cash Balance",
+    "label_button_help": "Help",
+    "label_button_investment_allocation": "Investment Allocation",
+    "label_button_language": "Language",
+    "label_button_legal": "Legal",
+    "label_button_logout": "Logout",
+    "label_button_profile": "Profile",
+    "label_button_profit_loss_report": "Profit/Loss Report",
+    "label_button_security": "Security",
+    "label_button_transaction_history": "Transaction History",
+    "label_button_withdraw": "Withdraw Cash Balance",
+    "label_change_password": "Change Password",
+    "label_disable_pin": "Disable PIN Setup at Login",
+    "label_enable_pin": "Enable PIN Setup at Login",
+    "label_logout_popup_description": "Confirm logout?",
+    "label_my_account": "My Account",
+    "label_remove_pin": "Remove PIN Security",
+    "label_version": "Version ",
+    "title": "Menu",
+    "title_alert_kyc": "KYC Required",
+    "title_logout_popup": "Logout?"
+  },
+  "portfolioAllocationSummaryPage": {
+    "description": "Your Allocation is how your new investments will be invested.",
+    "label_button_customize": "Customize",
+    "label_button_next": "Next",
+    "title": "Summary"
+  },
+  "profitLossReportPage": {
+    "alert_send_email_success": "Successfully sent email...",
+    "description": "Get your Profit/Loss statement delivered to your email.",
+    "label_button_submit": "Submit",
+    "label_excel": "Excel",
+    "label_pdf": "PDF",
+    "label_select_year": "Select Year",
+    "label_year_to_date": " YTD",
+    "title": "Profit/Loss Report"
+  },
+  "pinCodeGenerateComponent": {
+    "label_enter_pin": "Step 1: Enter PIN",
+    "label_confirm_pin": "Step 2: Confirm PIN"
+  },
+  "pinCodeValidateComponent": {
+    "label_enter_pin": "Step 1: Enter PIN"
+  },
+  "addMobilePage": {
+    "alert_enter_mobile_number": "Please enter valid mobile number.",
+    "description": "You will get an SMS with a code to verify your mobile phone number.",
+    "label_button_next": "Next",
+    "label_phone_number": "Phone Number",
+    "placeholder_phone_number": "Phone Number",
+    "title": "Add Mobile Number"
+  },
+  "addPaymentInstrumentDynamicFieldsPage": {
+    "alert_fill_details": "Please fill all required details",
+    "alert_successfully_add_account": "You have successfully added the account.",
+    "label_button_next": "Next",
+    "title": "Add {{title}} Details"
+  },
+  "addPaymentInstrumentWebViewPage": {
+    "title": "Provide {{piTypeName}} Details"
+  },
+  "addPaymentInstrumentWidgetPage": {
+    "description": "You will directed to the {{provider}}, where you will be able to complete the process of adding the account.",
+    "label_account_name": "Account Display Name",
+    "label_not_supported": "Not Supported",
+    "label_process_complete": "You have successfully added the account. Go back to select and continue process of payments.",
+    "label_start_process": "Start Process",
+    "placeholder_account_name": "Enter Account Display Name",
+    "title": "Provide {{piTypeName}} Details"
+  },
+  "alternateLoginPage": {
+    "alert_skip_pin_setup": "You are skipping setting up the PIN based login. Please confirm.",
+    "label_button_login": "Login Again",
+    "label_button_skip_setup": "Skip PIN Setup",
+    "title_generate_pin": "Step 1: Enter PIN",
+    "title_generate_pin_confirm": "Step 2: Confirm PIN",
+    "title_setup": "Create Login PIN",
+    "title_validate": "Login PIN",
+    "title_validate_pin": "Enter PIN"
+  },
+  "amountCalculatorComponent": {
+    "label_coin_amount": "Amount ({{currencyCode}})",
+    "label_coin_quantity": "Coin Quantity ({{cryptoCurrencyCode}})",
+    "label_crypto_currency_coins": "{{cryptoCurrencyCode}} Coins",
+    "label_currency_value": "{{currencyCode}} Value",
+    "placeholder_amount": "Enter amount",
+    "placeholder_quantity": "Enter quantity"
+  },
+  "buySingleAssetPage": {
+    "description": "Coin quantities are estimated. Actual quantity may vary based on market price at the time of execution.",
+    "error_deposit_amount_limit": "Value of the asset must be between {{minAmount}} and {{maxAmount}}.",
+    "error_invalid_coin": "{{assetCurrencyCode}} coin must be between {{minAmount}} and {{maxAmount}}.",
+    "error_more_than_available_cash_balance": "Entered amount is more than available cash balance.",
+    "label_button_next": "Next",
+    "label_cash_balance": "Current Cash Balance",
+    "label_use_cash_balance": "Use Cash Balance",
+    "label_use_full_cash_balance": "Use Full Cash Balance",
+    "title": "Buy Coins"
+  },
+  "cashBalanceActionsPage": {
+    "alert_complete_kyc": "Complete your KYC process for withdrawal.",
+    "alert_kyc_pending": "Your KYC verification is pending. Once approved, you can withdraw.",
+    "label_button_deposit_to_cash_balance": "Deposit to Cash Balance",
+    "label_button_invest": "Invest in Current Allocation",
+    "label_button_sell_from_portfolio": "Sell From Portfolio",
+    "label_button_withdraw_cash_balance": "Withdraw Cash Balance",
+    "title": "Cash Balance",
+    "title_alert_kyc": "KYC Required"
+  },
+  "coinInfoPage": {
+    "label_button_asset_transaction": "{{buttonTitle}} Now",
+    "label_buy": "Buy",
+    "label_coin_name": "Coin Name",
+    "label_exchange_rate": "Exchange Rate",
+    "label_sell": "Sell",
+    "title": "{{title}} Coins"
+  },
+  "common": {
+    "alert_already_kyc": "KYC process already done.",
+    "alert_already_portfolio_allocation": "Define your default investment allocation now?",
+    "alert_api_failure": "Failed to complete the process. Please try again later.",
+    "alert_close_process": "Are you sure you want to cancel this process?",
+    "alert_email_already_registered": "Email address is already registered!",
+    "alert_fill_details": "Please fill all details",
+    "alert_kyc_complete_required": "Complete your KYC process.",
+    "alert_session_expire": "Your session has been expired. Please login using your credentials.",
+    "alert_something_wrong": "Something went wrong.",
+    "label_alert_button_later": "Later",
+    "label_alert_button_no": "No",
+    "label_alert_button_start": "Start",
+    "label_alert_button_yes": "Yes",
+    "label_app_name": "B21 Invest",
+    "label_bank_account": "Bank Account",
+    "label_share_content": "I am enjoying investing in crypto assets using B21 Invest. You can start doing the same. Build your portfolio today! use my Code ({{code}}) during sign up to earn referral tokens.\n\nDownload Now http://onelink.to/b21invest",
+    "label_upgrade_now": "( Upgrade Now )",
+    "title_alert_allocation_required": "Investment Allocation Not Defined",
+    "title_alert_kyc_required": "KYC Required",
+    "title_session_expire": "Session Expired"
+  },
+  "confirmTransactionPage": {
+    "label_button_invest_now": "Confirm",
+    "label_buy_single_asset": "Buy single asset using {{piTypeDisplayName}}.",
+    "label_card_name": "({{AcctDisplayName}})",
+    "label_cash_balance_after_investment": "Cash Balance After Transaction",
+    "label_deposit_cash_balance_using_bank_or_card": "Deposit amount in cash balance using {{piTypeDisplayName}}.",
+    "label_investment_amount": "Transaction Amount",
+    "label_investment_flow": "Investment in portfolio using {{piTypeDisplayName}}.",
+    "label_purpose_not_define": "Transaction purpose not defined.",
+    "label_sell_full_portfolio": "Sell full portfolio amount and deposit in cash balance.",
+    "label_sell_multiple_assets": "Sell multiple assets from portfolio and deposit amount in cash balance.",
+    "label_sell_partial_portfolio": "Sell partial portfolio amount and deposit in cash balance.",
+    "label_sell_single_asset": "Sell single asset from portfolio and deposit amount in cash balance.",
+    "label_sold_assets": "Assets to be Sold",
+    "label_source": "Source",
+    "label_under_development": "This is under development",
+    "label_withdraw_full": "Withdraw full amount from cash balance to Bank.",
+    "label_withdraw_partial": "Withdraw partial amount from cash balance to Bank.",
+    "title": "Confirm Transaction Summary"
+  },
+  "registrationStatusPage": {
+    "description": "You have provided everything we need from you in order to verify your identity as a B21 Investor. Now let's enter some quick payment details to complete your investment. Remember, digital asset investing is volatile and carry risks, we recommend you to Invest wisely.",
+    "label_button_Done": "Done",
+    "label_button_Invest_now": "Invest now",
+    "label_button_skip": "Skip",
+    "title": "Congratulations!"
+  },
+  "depositAmountPage": {
+    "description": "How much you want to add in cash balance?",
+    "error_invalid_amount": "Amount must be between {{minAmount}} and {{maxAmount}}.",
+    "label_button_next": "Next",
+    "placeholder_enter_amount": "Enter Amount",
+    "title": "Deposit Amount"
+  },
+  "emailConfirmationPage": {
+    "alert_checkEmailAndContactSupport": "Please check your email. if you are still facing the problem, please email support@b21.io from your registered email id.",
+    "alert_emailNotVerified": "Your email has yet not been verified, please verify to continue.",
+    "alert_verificationLinkSend": "Please tap on the email verification link sent to your registered email address",
+    "description": "Tap the verification link that was sent from b21 in the email {{email}}",
+    "label_button_confirmed": "I've Confirmed",
+    "label_button_edit_email": "Edit Email",
+    "label_button_problemsReceivingCode": "Problems receiving the email?",
+    "label_button_resend_email": "Resend Email",
+    "label_button_resend_email_timer": "Resend Email ({{timer}})",
+    "title": "Confirm Your Email"
+  },
+  "emailEditConfirmationPage": {
+    "label_button_update_email": "Update Email Address",
+    "label_newEmail": "New Email",
+    "label_oldEmail": "Old Email",
+    "title": "Confirm Edit Email"
+  },
+  "emailEditPage": {
+    "alert_enter_valid_email": "Please enter a valid email address!",
+    "label_button_done": "Done",
+    "label_email": "Email",
+    "placeholder_email": "Enter your new email id",
+    "title": "Update email"
+  },
+  "investmentAmountPage": {
+    "description": "How much you want to invest today?",
+    "error_invalid_amount": "Amount must be between {{minAmount}} and {{maxAmount}}.",
+    "error_minimum_cash_balance": "Minimum {{minAmount}} is required for the investment.",
+    "label_button_next": "Next",
+    "label_cash_balance": "Current Cash Balance",
+    "label_use_cash_balance": "Use Cash Balance",
+    "label_use_max_amount": "Use Full Cash Balance",
+    "placeholder_enter_amount": "Enter Amount",
+    "title": "Investment Amount"
+  },
+  "selectPaymentInstrumentPage": {
+    "error_not_supported": "This payment method doesn't support adding",
+    "label_add_new_debit_card": "Add New {{piTypeName}}",
+    "label_nothing_saved": "No {{piTypeName}} added",
+    "label_saved": "Saved {{piTypeName}}",
+    "label_use_this": "Use This",
+    "title": "{{title}}"
+  },
+  "selectPaymentInstrumentTypePage": {
+    "error_coming_soon": "Coming Soon",
+    "title": "Select Payment Method"
+  },
+  "selectSellAssetsOptionPage": {
+    "description": "Here you can sell your assets and convert them to cash balance",
+    "label_advanced_sell_assets": "Advanced Sell Assets",
+    "label_advanced_sell_assets_note": "* Sell specific assets from your portfolio.",
+    "label_sell_assets": "Sell Assets",
+    "title": "Sell Assets Menu"
+  },
+  "selectTransferServiceTypePage": {
+    "title": "Choose Service Type"
+  },
+  "sellAssetsAdvancedPage": {
+    "description": "Select the coin you want to sell.",
+    "error_invalid_amount": "Amount must be between {{minAmount}} and {{maxAmount}}.",
+    "error_trying_to_sell_more_coins_than_you_have": "You are trying to sell more coins than you have!",
+    "label_button_next": "Next",
+    "label_current_asset_value": "Current Asset Value",
+    "title": "Advanced Assets Sell"
+  },
+  "sellAssetsAmountPage": {
+    "description": "Sell partially or all of your portfolio. If you choose to sell part of your portfolio, we will proportionally sell assets from your portfolio and credit your cash balance. If you choose all, we will sell all of your assets to cash balance.",
+    "error_max_amount": "Withdraw amount must be between {{minAmount}} and {{maxAmount}}.",
+    "label_button_next": "Next",
+    "label_current_value": "Current Asset Value",
+    "label_withdraw_all": "Sell All",
+    "placeholder": "Enter Withdraw Amount Here",
+    "title": "Sell Assets"
+  },
+  "sellSingleAssetPage": {
+    "description": "Coin quantities are estimated. Actual quantity may vary based on market price at the time of execution.",
+    "label_button_next": "Next",
+    "label_current_coin_balance": "Current Asset Balance",
+    "error_invalid_coin": "{{assetCurrencyCode}} coin must be between {{minAmount}} and {{maxAmount}}.",
+    "error_sell_more_coin": "You are trying to sell more than you have",
+    "label_sell_all": "Sell All",
+    "title": "Sell Coins"
+  },
+  "setPasswordPage": {
+    "alert_invalid_password": "Invalid Password",
+    "alert_optional": "Referral code earns you B21 tokens. Ask your friends for the referral code",
+    "description": "A password should contain a minimum of 8 characters, one capital letter, one special character, and one number.",
+    "label_button_next": "Next",
+    "label_password": "Enter your password",
+    "label_referral_code": "Referral Code",
+    "label_retype_password": "Re-enter your password",
+    "placeholder_password": "Enter password here",
+    "placeholder_referral_code": "Enter your Referral code",
+    "placeholder_retype_password": "Re-enter password here",
+    "title": "Set your password"
+  },
+  "signUpPage": {
+    "label_button_next": "Next",
+    "label_email": "Email",
+    "placeholder_email": "Enter your email address",
+    "label_first_name": "First Name",
+    "placeholder_first_name": "Enter your first name",
+    "label_last_name": "Last Name",
+    "placeholder_last_name": "Enter your last name",
+    "alert_please_enter_valid_email": "Please enter a valid email address!",
+    "alert_please_enter_valid_first_name": "Please enter a valid first name.",
+    "alert_please_enter_valid_last_name": "Please enter a valid last name",
+    "title": "Sign Up"
+  },
+  "transactionInstructionsComponent": {
+    "description": "Please choose one of the options below based on your preferences to complete the payment.",
+    "description1": "To deposit funds to your account please transfer from your bank account to the bank details below. Be sure to include the ",
+    "description2": "reference number",
+    "description3": ". If the reference number is not provided it will cause delays in crediting the funds.",
+    "label_account_number": "Account Number",
+    "label_account_type": "Account Type",
+    "label_bank": "Bank",
+    "label_button_cancel": "Cancel",
+    "label_button_done": "Done",
+    "label_button_paid": "Paid",
+    "label_deposit_amount": "Deposit Amount",
+    "label_ifsc_code": "IFSC Code",
+    "label_name": "Name",
+    "label_note": "Note:",
+    "label_note_text": "deposit amount is an estimate and will be calculated using the current exchange rate when the payment is received.",
+    "label_transaction_Amount": "Transaction Amount",
+    "label_transaction_reference": "Transaction Reference",
+    "label_upi": "UPI",
+    "label_upi_id": "UPI ID",
+    "pending_transaction_title": "Pending Transaction",
+    "title": "Transaction Instructions"
+  },
+  "transactionInstructionsPage": {
+    "description1": "To deposit funds to your account please transfer from your bank account to the bank details below. Be sure to include the ",
+    "description2": "reference number",
+    "description3": ". If the reference number is not provided it will cause delays in crediting the funds.",
+    "label_button_done": "Done",
+    "title": "Transaction Instructions"
+  },
+  "transactionStatusPage": {
+    "label_button_cancel": "Cancel",
+    "label_button_copy": "Copy",
+    "label_button_report_issue": "Report Issue",
+    "label_button_done": "Done",
+    "label_failure_button": "Start Again",
+    "label_failure_desc": "We are unable to process your transaction as of now. Please wait and try again later.",
+    "label_success_desc": "We are processing your transaction, if you have selected Cash Balance this will happen immediately, if you have selected another method, it will take 3 - 5 business days to process. We will send you notifications as soon as your order has been processed.",
+    "title": "Transaction Successful",
+    "title_failure": "Transaction Failed"
+  },
+  "verifyMobilePage": {
+    "label_button_next": "Next",
+    "label_enter_code_below": "Enter the code sent to your mobile",
+    "label_problem_receiving_code": "Problems receiving the code?",
+    "alert_problem_receiving_code_message": "Please check your phone number and if you are still facing the problem please email support@b21.io and quote the phone number you are using.",
+    "label_button_resend_code": "Resend Code",
+    "label_button_resend_code_timer": "Resend Code ({{timer}})",
+    "alert_verification_code_sent_successfully": "Verification code sent successfully",
+    "title": "Mobile Phone Verification"
+  },
+  "withdrawAmountPage": {
+    "description": "How much you want to withdraw today?",
+    "error_invalid_amount": "Amount must be between {{minAmount}} and {{maxAmount}}.",
+    "error_invalid_input": "Invalid Input",
+    "error_more_than_have": "You are trying to withdraw more amount than you have.",
+    "error_not_enough_cash_balance": "You don't have enough cash balance for withdraw.",
+    "label_button_go_back": "Go Back",
+    "label_button_next": "Next",
+    "label_cash_balance": "Current Cash Balance",
+    "label_use_max_amount": "Use Full Cash Balance",
+    "placeholder_enter_amount": "Enter Amount",
+    "title": "Withdraw Amount"
+  },
+  "welcomePage": {
+    "description_invest_earn": "First deposit of {{firstDepositValue}} earns you {{firstEarnValue}} in B21 tokens.\nEvery subsequest investment of minimum {{investValue}}, earns you {{rewardB21Value}} in B21 tokens.",
+    "description_invite_earn": "Invite your friends using your invite code. Once they successfully complete the signup process, you both will earn B21 tokens worth {{tokenValue}}.",
+    "description_stack_earn": "Stake the below tokens to earn up to a return of {{interest}}% per annum. Interest will be paid monthly.\nAn average and ending balance of minimum {{b21AssetsValue}} B21 tokens is needed to be eligible for the interest payment.",
+    "description_static_screen_one": "Hi, we’re B21. Our mission is simple. Through the app you hold in your hands presently, we are going to make it easy for you to invest in cryptocurrency.",
+    "description_static_screen_second": "Through our easy interface, we will guide you every step of the way. We will handle all the technical details so you can easily invest, see your progress, and reap the rewards when you achieve it!\n\nHappy Investing",
+    "description_upgrade_to_vip": "Become a B21 VIP with only 300 B21 tokens in your portfolio and get reduced fees and exclusive bonuses",
+    "label_button_next": "Next",
+    "title": "Welcome",
+    "title_earn": "Earn",
+    "title_invest": "Invest",
+    "title_invest_earn": "Invest & Earn",
+    "title_invite_earn": "Invite & Earn",
+    "title_stack_earn": "Stake & Earn",
+    "title_VIP_level": "VIP Level"
+  },
+  "verifyUpdateMobilePage": {
+    "alert_problem_receiving_code_message": "Please check your phone number and if you are still facing the problem please email support@b21.io and quote the phone number you are using.",
+    "alert_success_change_mobile": "Your mobile number has been updated successfully.",
+    "alert_verification_code_sent_successfully": "Verification code sent successfully",
+    "description": "A verification code has been sent to your new phone number. please enter it below.",
+    "label_button_done": "Done",
+    "label_problem_receiving_code": "Problems receiving the code?",
+    "label_button_resend_code": "Resend Code",
+    "label_button_resend_code_timer": "Resend Code ({{timer}})",
+    "title": "Verify your mobile phone number"
+  },
+  "verifyUpdateEmailPage": {
+    "alert_success_change_email": "Email verification link is sent. Please verify email by clicking the link to successfully complete the process.",
+    "label_button_done": "Done",
+    "label_newEmail": "New Email",
+    "label_oldEmail": "Old Email",
+    "title": "Confirm Edit Email"
+  },
+  "userProfilePage": {
+    "alert_kyc_error": "We have processed your KYC. Please contact support to know further.",
+    "label_button_kyc_status": "KYC Status",
+    "label_camera": "Camera",
+    "label_complete": "Complete",
+    "label_gallery": "Gallery",
+    "label_incomplete": "Incomplete",
+    "label_refer_friend": "Refer a Friend",
+    "title": "My Profile"
+  },
+  "uploadDocumentPage": {
+    "alert_fill_data": "Please fill all data.",
+    "description_add_photo_id": "Add a photo of your valid government issued identity.",
+    "description_upload_utility_bill": "Add a photo of your utility bill or bank statement as proof of your address.",
+    "label_add_photo_id": "Select or Take Photo",
+    "label_address_proof": "Proof of Your Address",
+    "label_button_next": "Submit",
+    "label_button_upload_utility_bill": "Select or Take Photo",
+    "label_camera": "Camera",
+    "label_choose_your_government_id": "Choose Government ID Type",
+    "label_driver_license": "Drivers License",
+    "label_enter_government_id_number": "Enter Government ID Number",
+    "label_gallery": "Gallery",
+    "label_government_issued_id": "Your Government-Issued ID",
+    "label_id_card": "ID Card",
+    "label_passport": "Passport",
+    "label_upload_utility_bill": "Upload Your Utility Bill / Bank Statement",
+    "title": "For extra security, add the following"
+  },
+  "updateMobilePage": {
+    "alert_enter_mobile_number": "Please enter valid mobile number.",
+    "label_button_next": "Next",
+    "label_new_phone": "New Phone Number",
+    "placeholder_phone_number": "Phone Number",
+    "title": "Update Mobile Number"
+  },
+  "updateEmailPage": {
+    "error_please_enter_valid_email": "Please enter a valid email address!",
+    "label_button_next": "Next",
+    "label_email": "Email",
+    "placeholder_new_email": "Enter your new email id",
+    "title": "Update email"
+  },
+  "transactionHistoryPage": {
+    "label_cashBalance": "Cash Balance",
+    "label_complete": "Successful",
+    "label_failed": "Failed",
+    "label_no_transaction_history": "No Transaction History",
+    "label_pending": "Pending",
+    "title": "Transaction History"
+  },
+  "transactionDetailPage": {
+    "label_cashBalance": "Cash Balance",
+    "label_complete": "Successful",
+    "label_Fees": "Fees",
+    "label_pending": "Pending",
+    "label_purchase_price": "Purchase Price",
+    "label_purchased": " Purchased",
+    "label_sell_price": "Sell Price",
+    "label_sold": " Sold",
+    "label_transaction_amount": "Transaction Amount",
+    "title": "Transaction Details"
+  },
+  "termsAndConditionsPage": {
+    "label_button_done": "Done",
+    "label_agree_terms_and_condition": "I agree to the terms & conditions",
+    "title": "Terms & conditions"
+  },
+  "resetPasswordPage": {
+    "alert_password_changed": "Your password is updated, please login with new password.",
+    "error_enter_valid_verification_code": "Enter Valid Verification Code",
+    "error_invalid_password": "Invalid Password",
+    "label_button_next": "Next",
+    "label_enter_code": "Enter Verification Code",
+    "label_password": "Enter your password",
+    "label_retype_password": "Re-enter your password",
+    "placeholder_password": "Enter password here",
+    "placeholder_retype_password": "Re-enter password here",
+    "title": "Change Password"
+  },
+  "yearSelectorComponent": {
+    "label_button_cancel": "Cancel"
+  },
+  "stateSelectorComponent": {
+    "label_button_cancel": "Cancel"
+  },
+  "simpleSelectorComponent": {
+    "label_button_cancel": "Cancel"
+  },
+  "cashBalanceInfoPage": {
+    "description": "Deposit and keep cash available for easy and quick investment in your portfolio or a single coin",
+    "label_button_deposit_now": "Deposit Now",
+    "label_cash_balance": "Cash Balance",
+    "title": "Cash Balance Information"
+  },
+  "upgradeToVIPPage": {
+    "label_button_continue": "Continue",
+    "description": "Become a B21 VIP with only 300 B21 tokens in your portfolio and get reduced fees and exclusive bonuses",
+    "title": "Upgrade to VIP"
+  }
+}

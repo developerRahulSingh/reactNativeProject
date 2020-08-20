@@ -1,0 +1,632 @@
+{
+  "appUpdatePage": {
+    "description": "アプリケーションの新しいバージョンが利用可能です。アプリケーションを引き続き使用するには、最新バージョンにアップデートする必要があります。",
+    "label_button_update_now": "今すぐアップデート",
+    "label_installed_version_description": "現在{{version}}がデバイスにインストールされています。",
+    "label_new_version_available": "新しいバージョンが利用可能です。",
+    "title": "アップデートしてください"
+  },
+  "actionModelComponent": {
+    "label_button_cancel": "キャンセル",
+    "label_select_image_from": "イメージを選択："
+  },
+  "buildPortfolioPage": {
+    "description": "カードをタップしてポートフォリオにコインを追加してください。",
+    "label_button_next": "次へ",
+    "title": "自分のポートフォリオを作る"
+  },
+  "buildPortfolioStatusPage": {
+    "description": "ポートフォリオ作成お疲れ様です！\n\nこれらの割り当ては後でアプリケーションメニューから変更できます。\n\n投資を開始するには、本人確認を行う必要があります。",
+    "label_button_verify_me_now": "今すぐ確認する",
+    "title": "マイポートフォリオ"
+  },
+  "commonAlertComponent": {
+    "label_button_cancel": "キャンセル",
+    "label_button_copy_error": "コピーエラー",
+    "label_button_okay": "OK",
+    "label_button_show_details": "詳細を表示",
+    "label_error_details": "エラー詳細"
+  },
+  "countrySelectorComponent": {
+    "label_button_cancel": "キャンセル",
+    "placeholder_search": "検索"
+  },
+  "changePasswordPage": {
+    "description": "大文字1つ、特殊文字1つ、数字1つを含む8文字以上である必要があります。",
+    "error_invalid_password": "無効なパスワード",
+    "label_authentication_api_failure": "APIの認証に失敗しました。",
+    "label_button_change_password": "パスワードを変更する",
+    "label_invalid_password": "無効なパスワード",
+    "label_new_password": "新しいパスワード",
+    "label_retype_password": "新しいパスワードを再入力してください",
+    "placeholder_new_password": "新しいパスワードを入力してください",
+    "title": "パスワードを変更する"
+  },
+  "changePasswordVerificationPage": {
+    "alert_problem_receiving_code_message": "電話番号を確認してください。それでも問題が解決されない場合は、support@b21.ioにメールを送信し、使用している電話番号をお伝えください。",
+    "alert_success_change_password": "新しいパスワードは正常に更新されました。続行するには再度ログインしてください。",
+    "alert_verification_code_sent_successfully": "確認コードが正常に送信されました",
+    "label_button_next": "次へ",
+    "label_button_problem_receiving_code": "コードの受け取りに問題がありますか？",
+    "label_button_resend_code": "コードを再送信",
+    "label_button_resend_code_timer": "コードを再送信 ({{timer}})",
+    "label_enter_code_below": "ご利用の端末に送信されたコードを入力してください",
+    "title": "パスワードを変更する"
+  },
+  "collectAdditionalInformationPage": {
+    "alert_fill_data": "正しい詳細を記入してください。",
+    "label_button_next": "次へ",
+    "title": "追加情報"
+  },
+  "collectAddressPage": {
+    "alert_retry_states_list_loading": "状態を読み込めませんでした。\nもう一度お試しください。",
+    "error_fields_detail": "詳細をすべて記入してください",
+    "label_button_next": "次へ",
+    "title": "住所"
+  },
+  "collectDoBPage": {
+    "error_cannotSelectFutureDate": "今日より前の日付を選択してください",
+    "error_olderThan18": "当社のサービスを利用するには、18歳以上である必要があります",
+    "error_youngerThan110": "当社のサービスを利用するには110歳未満である必要があります",
+    "label_button_done": "完了",
+    "label_button_next": "次へ",
+    "placeholder_select_dob": "生年月日を選択してください",
+    "title": "生年月日"
+  },
+  "collectUniqueIDPage": {
+    "alert_fill_data": "正しい詳細を記入してください。",
+    "label_agree_consent": "同意する",
+    "label_button_next": "次へ",
+    "label_consent": "B21 Investに、自身に関する次の情報を収集するために複数のデータベースを検索する許可を与えます。",
+    "title": "本人確認を行う"
+  },
+  "confirmCountryPage": {
+    "label_button_next": "次へ",
+    "label_country": "国",
+    "title": "お住まいの国を確認してください"
+  },
+  "confirmNamePage": {
+    "alert_fields_detail": "すべての詳細を記入してください",
+    "label_button_next": "次へ",
+    "title": "氏名を確認してください"
+  },
+  "countryNotSupportedPage": {
+    "label_country_not_supported": "残念ながら、現時点であなたの国はB21のサポート対象外です。当社は常に対象地域を拡大しているので、後日改めてご確認ください。"
+  },
+  "customizeAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "割り当てを自動調整するために通貨をアンロックしてください",
+    "description": "プラス、マイナス、ロックボタンを使用して、入金資金の投資方法をカスタマイズします。アンロックされたコインは自動調整されます。",
+    "title": "マイポートフォリオをカスタマイズする"
+  },
+  "dashboardPortfolioListComponent": {
+    "label_moreOptions": "その他のオプション"
+  },
+  "dashboardPage": {
+    "alert_button_buy": "コインを買う",
+    "alert_button_sell": "コインを売る",
+    "alert_exit_application": "アプリケーションを閉じてもよろしいですか？",
+    "alert_sell_buy_assets": "売買しますか？",
+    "error_no_coin_portfolio": "あなたはまだマイポートフォリオを作成していません。",
+    "label_button_invest_now": "今すぐ投資",
+    "label_cashBalance": "現金残高",
+    "label_currentValue": "現在の価値",
+    "label_gain": "ゲイン",
+    "label_invested": "投資済み",
+    "label_myPortfolio": "マイポートフォリオ",
+    "label_return": "リターン",
+    "title": "ダッシュボード",
+    "title_exit_application": "退出しますか？"
+  },
+  "declareSourceOfFundsPage": {
+    "label_button_next": "次へ",
+    "title": "資金源を申告"
+  },
+  "earnPage": {
+    "alert_success_b21_card": "カードをご予約いただきありがとうございます。カードが利用可能になり次第、ご連絡いたします。",
+    "description_invest_earn": "{{firstDepositValue}}の初回入金により、B21トークンで{{firstEarnValue}}を獲得できます。\n最低{{investValue}}のその後の投資ごとに、B21トークンで{{rewardB21Value}}を獲得できます。",
+    "description_invite_earn": "招待コードを使用してお友達を招待しましょう。お友達が登録プロセスを正常に完了すると、双方が{{tokenValue}}相当のB21トークンを獲得できます。",
+    "description_stack_earn": "以下のトークンを投資して、年間最大{{interest}}％の利益を得ましょう。金利は毎月支払われます。\n金利支払いの対象となるには、最低{{b21AssetsValue}} B21トークンの平均期末残高が必要です。",
+    "label_button_deposit_now": "今すぐ入金",
+    "label_button_more_details": "詳細",
+    "label_button_reserve_now": "今すぐ予約",
+    "label_button_share_now": "今すぐ共有",
+    "label_button_buy_now": "今すぐ買う",
+    "label_referral_code": "あなたの紹介コード",
+    "title": "稼ぐ",
+    "title_invest_earn": "投資して稼ぐ",
+    "title_invite_earn": "招待して稼ぐ",
+    "title_reserve_b21_card": "B21カードを予約",
+    "title_stack_earn": "賭けて稼ぐ"
+  },
+  "forgotPasswordPage": {
+    "alert_please_enter_valid_email": "有効なメールアドレスを入力してください！",
+    "label_button_next": "次へ",
+    "label_email": "Eメール",
+    "placeholder_user_name": "ユーザーネームを入力してください",
+    "title": "パスワードを忘れた場合"
+  },
+  "goalDashboardCardViewComponent": {
+    "label_button_buy_now": "今すぐ買う"
+  },
+  "helpPage": {
+    "label_support_b21": "support@b21.io",
+    "label_support_mail": "サポートメール",
+    "title": "ヘルプ"
+  },
+  "languageSelectorComponent": {
+    "label_english": "英語",
+    "label_japanese": "日本語",
+    "label_korean": "韓国語",
+    "label_button_cancel": "キャンセル",
+    "label_russian": "ロシア語",
+    "label_spanish": "スペイン語"
+  },
+  "legalPage": {
+    "title": "法的事項"
+  },
+  "loginPage": {
+    "alert_please_enter_valid_email": "有効なメールアドレスを入力してください！",
+    "label_button_forgot_password": "パスワードをお忘れですか？",
+    "label_button_login": "ログインする",
+    "label_button_sign_up": "今すぐ登録！",
+    "label_dont_have_account": "アカウントをお持ちでないですか？",
+    "label_email": "メール",
+    "label_language": "言語：",
+    "label_password": "パスワード",
+    "label_version": "バージョン ",
+    "placeholder_enter_email": "メールアドレスを入力してください",
+    "placeholder_enter_password": "ここにパスワードを入力してください",
+    "title": "ログイン"
+  },
+  "manageInvestmentAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "割り当てを自動調整するために通貨をアンロックしてください",
+    "description": "プラス、マイナス、ロックボタンを使用して、入金資金の投資方法をカスタマイズします。アンロックされたコインは自動調整されます。",
+    "label_add_other_coins": "他のコインを追加",
+    "label_my_portfolio_allocation": "マイポートフォリオ配分",
+    "title": "投資配分"
+  },
+  "menuPage": {
+    "alert_complete_kyc": "アカウントを認証してください。",
+    "alert_kyc_pending": "KYC本人確認は保留中です。",
+    "alert_sure": "ご確認ください",
+    "label_app_settings": "アプリ設定",
+    "label_button_deposit": "現金残高への入金",
+    "label_button_help": "ヘルプ",
+    "label_button_investment_allocation": "投資配分",
+    "label_button_language": "言語",
+    "label_button_legal": "法的事項",
+    "label_button_logout": "ログアウト",
+    "label_button_profile": "プロフィール",
+    "label_button_profit_loss_report": "損益レポート",
+    "label_button_security": "セキュリティ",
+    "label_button_transaction_history": "取引履歴",
+    "label_button_withdraw": "現金残高を引き出す",
+    "label_change_password": "パスワードを変更する",
+    "label_disable_pin": "ログイン時にPIN設定を無効にする",
+    "label_enable_pin": "ログイン時にPIN設定を有効にする",
+    "label_logout_popup_description": "ログアウトを確認しますか？",
+    "label_my_account": "マイアカウント",
+    "label_remove_pin": "PINセキュリティーを削除",
+    "label_version": "バージョン ",
+    "title": "メニュー",
+    "title_alert_kyc": "KYC本人確認が必要です",
+    "title_logout_popup": "ログアウトしますか？"
+  },
+  "portfolioAllocationSummaryPage": {
+    "description": "配分により新しい資金が投資される方法を決めます。",
+    "label_button_customize": "カスタマイズ",
+    "title": "概要"
+  },
+  "profitLossReportPage": {
+    "alert_send_email_success": "メールを送信しました...",
+    "description": "ご登録のメールアドレスに送信された損益計算書をご確認ください。",
+    "label_button_submit": "送信する",
+    "label_excel": "エクセル",
+    "label_pdf": "PDF",
+    "label_select_year": "年を選択してください",
+    "label_year_to_date": " YTD",
+    "title": "損益レポート"
+  },
+  "pinCodeGenerateComponent": {
+    "label_enter_pin": "ステップ1：PINを入力してください",
+    "label_confirm_pin": "ステップ2：PINを確認してください"
+  },
+  "pinCodeValidateComponent": {
+    "label_enter_pin": "ステップ1：PINを入力してください"
+  },
+  "addMobilePage": {
+    "alert_enter_mobile_number": "有効な携帯電話番号を入力してください。",
+    "description": "携帯電話番号を確認するためのコードが記載されたSMSが届きます。",
+    "label_button_next": "次へ",
+    "label_phone_number": "電話番号",
+    "placeholder_phone_number": "電話番号",
+    "title": "携帯電話番号を追加"
+  },
+  "addPaymentInstrumentDynamicFieldsPage": {
+    "alert_successfully_add_account": "アカウントを追加しました。",
+    "label_button_next": "次へ",
+    "title": "{{title}}の詳細を追加"
+  },
+  "addPaymentInstrumentWebViewPage": {
+    "title": "{{piTypeName}}の詳細を提供してください"
+  },
+  "addPaymentInstrumentWidgetPage": {
+    "description": "{{provider}}にリダイレクトされ、そこでアカウント追加プロセスを完了することができます。",
+    "label_account_name": "アカウント表示名",
+    "label_not_supported": "対応されていません",
+    "label_process_complete": "アカウントを追加しました。戻って支払いを続行してください。",
+    "label_start_process": "プロセスを開始",
+    "placeholder_account_name": "アカウント表示名を入力してください",
+    "title": "{{piTypeName}}の詳細を提供してください"
+  },
+  "alternateLoginPage": {
+    "alert_skip_pin_setup": "PINに基づくログインのセットアップをスキップしています。確認してください。",
+    "label_button_login": "再度ログイン",
+    "label_button_skip_setup": "PINのセットアップをスキップする",
+    "title_generate_pin": "ステップ1：PINを入力してください",
+    "title_generate_pin_confirm": "ステップ2：PINを確認してください",
+    "title_setup": "ログインPINの作成",
+    "title_validate": "ログインPIN",
+    "title_validate_pin": "PINを入力してください"
+  },
+  "amountCalculatorComponent": {
+    "label_coin_amount": "金額（{{currencyCode}}",
+    "label_coin_quantity": "コインの数量（{{cryptoCurrencyCode}}",
+    "label_crypto_currency_coins": "{{cryptoCurrencyCode}}コイン",
+    "label_currency_value": "{{currencyCode}}値",
+    "placeholder_amount": "金額を入力してください",
+    "placeholder_quantity": "数量を入力してください"
+  },
+  "buySingleAssetPage": {
+    "description": "コインの数量は概算です。実際の数量は、執行時の市場価格によって異なる場合があります。",
+    "error_deposit_amount_limit": "資産の価値は{{minAmount}}から{{maxAmount}}の間でなければなりません。",
+    "error_invalid_coin": "{{assetCurrencyCode}}コインは{{minAmount}}から{{maxAmount}}の間でなければなりません。",
+    "error_more_than_available_cash_balance": "入力された金額は、利用可能な現金残高を超えています。",
+    "label_button_next": "次へ",
+    "label_cash_balance": "現在の現金残高",
+    "label_use_cash_balance": "現金残高を使用",
+    "label_use_full_cash_balance": "現金残高をすべて使用する",
+    "title": "コインを買う"
+  },
+  "cashBalanceActionsPage": {
+    "alert_complete_kyc": "出金するにはKYC本人確認プロセスを完了してください。",
+    "alert_kyc_pending": "KYC本人確認は保留中です。承認されると、引き出しが可能です。",
+    "label_button_deposit_to_cash_balance": "現金残高への入金",
+    "label_button_invest": "現在の配分に投資",
+    "label_button_sell_from_portfolio": "ポートフォリオから売る",
+    "label_button_withdraw_cash_balance": "現金残高を引き出す",
+    "title": "現金残高",
+    "title_alert_kyc": "KYC本人確認が必要です"
+  },
+  "coinInfoPage": {
+    "label_button_asset_transaction": "今すぐ{{buttonTitle}}",
+    "label_buy": "買う",
+    "label_coin_name": "コイン名",
+    "label_exchange_rate": "為替レート",
+    "label_sell": "売る",
+    "title": "{{title}}コイン"
+  },
+  "common": {
+    "alert_api_failure": "プロセスを完了できませんでした。しばらくしてからもう一度お試しください。",
+    "alert_email_already_registered": "メールアドレスは既に登録されています！",
+    "alert_fill_details": "詳細をすべて記入してください",
+    "alert_session_expire": "セッションの有効期限が切れています。クレデンシャル情報を使用してログインしてください。",
+    "label_app_name": "B21 Invest",
+    "label_bank_account": "銀行口座",
+    "label_share_content": "B21 Investを使用して暗号資産での投資を楽しんでいます。今すぐポートフォリオを作成して、あなたも一緒に始めましょう！サインアップの際に私のコード（{{code}}）を使用して紹介トークンを獲得してください。",
+    "label_upgrade_now": "( 今すぐアップグレード )",
+    "title_session_expire": "セッション有効期限切れ"
+  },
+  "confirmTransactionPage": {
+    "label_button_invest_now": "確認",
+    "label_buy_single_asset": "{{piTypeDisplayName}}を使用して単一の資金を購入。",
+    "label_card_name": "({{AcctDisplayName}})",
+    "label_cash_balance_after_investment": "取引後の現金残高",
+    "label_deposit_cash_balance_using_bank_or_card": "{{piTypeDisplayName}}を使用して現金残高に入金。",
+    "label_investment_amount": "取引金額",
+    "label_investment_flow": "{{piTypeDisplayName}}を使用してポートフォリオへ投資。",
+    "label_purpose_not_define": "取引目的が定められていません。",
+    "label_sell_full_portfolio": "ポートフォリオの全額と現金残高のデポジットを売る。",
+    "label_sell_multiple_assets": "ポートフォリオから複数の資産と現金残高の入金額を売る。",
+    "label_sell_partial_portfolio": "ポートフォリオの一部と現金残高のデポジットを売る。",
+    "label_sell_single_asset": "ポートフォリオから単一の資産と現金残高の入金額を売る。",
+    "label_sold_assets": "売られる資産",
+    "label_source": "ソース",
+    "label_under_development": "これは開発中です",
+    "label_withdraw_full": "現金残高から銀行に全額を引き出す。",
+    "label_withdraw_partial": "現金残高の一部を銀行に引き出す。",
+    "title": "取引概要の確認"
+  },
+  "registrationStatusPage": {
+    "label_button_Invest_now": "今すぐ投資",
+    "label_button_skip": "スキップ",
+    "description": "B21投資家として本人確認を行うために必要な情報の提供がすべて完了しました。簡単な支払いの詳細を入力して投資を始めましょう。デジタル資産投資は変動しやすく、リスクを伴うことを忘れないでください。賢く投資を行うことをお勧めします。 ",
+    "title": "おめでとうございます！"
+  },
+  "depositAmountPage": {
+    "description": "現金残高にいくら追加したいですか？",
+    "error_invalid_amount": "金額は{{minAmount}}から{{maxAmount}}の間でなければいけません。",
+    "label_button_next": "次へ",
+    "placeholder_enter_amount": "金額を入力してください",
+    "title": "入金額"
+  },
+  "emailConfirmationPage": {
+    "alert_checkEmailAndContactSupport": "メールを確認してください。引き続き問題が発生する場合は、登録したメールIDからsupport@b21.ioにご連絡ください。",
+    "alert_emailNotVerified": "メールがまだ確認されていません。続行するには確認を行なってください。",
+    "alert_verificationLinkSend": "登録したメールアドレスに送信されたメール確認リンクをタップしてください",
+    "description": "b21からメール{{email}}で送信された確認リンクをタップしてください",
+    "label_button_confirmed": "確認しました",
+    "label_button_edit_email": "メールを編集",
+    "label_button_problemsReceivingCode": "メールの受信に問題がありますか？",
+    "label_button_resend_email": "メールを再送",
+    "label_button_resend_email_timer": "メールを再送（{{timer}}）",
+    "title": "メールを確認してください"
+  },
+  "emailEditConfirmationPage": {
+    "label_button_update_email": "メールアドレスを更新",
+    "label_newEmail": "新しいメールアドレス",
+    "label_oldEmail": "古いメールアドレス",
+    "title": "編集メールを確認"
+  },
+  "emailEditPage": {
+    "alert_enter_valid_email": "有効なメールアドレスを入力してください！",
+    "label_button_done": "完了",
+    "label_email": "Eメール",
+    "placeholder_email": "新しいメールIDを入力してください",
+    "title": "メールを更新"
+  },
+  "investmentAmountPage": {
+    "description": "本日はいくら投資したいですか？",
+    "error_invalid_amount": "金額は{{minAmount}}から{{maxAmount}}の間でなければいけません。",
+    "error_minimum_cash_balance": "投資には最低{{minAmount}}が必要です。",
+    "label_button_next": "次へ",
+    "label_cash_balance": "現在の現金残高",
+    "label_use_cash_balance": "現金残高を使用",
+    "label_use_max_amount": "現金残高をすべて使用する",
+    "placeholder_enter_amount": "金額を入力してください",
+    "title": "投資額"
+  },
+  "selectPaymentInstrumentPage": {
+    "error_not_supported": "このお支払い方法は追加に対応していません",
+    "label_add_new_debit_card": "新しい{{piTypeName}}を追加",
+    "label_nothing_saved": "{{piTypeName}}が追加されていません",
+    "label_saved": "{{piTypeName}}を保存しました",
+    "label_use_this": "こちらをご使用ください：",
+    "title": "{{title}}"
+  },
+  "selectPaymentInstrumentTypePage": {
+    "error_coming_soon": "近日公開",
+    "title": "お支払い方法を選択"
+  },
+  "selectSellAssetsOptionPage": {
+    "description": "ここでは、資産を売却して現金残高に変換できます",
+    "label_advanced_sell_assets": "高度な資産売却",
+    "label_advanced_sell_assets_note": "*ポートフォリオから特定の資産を売る。",
+    "label_sell_assets": "資産の売却",
+    "title": "資産売却メニュー"
+  },
+  "selectTransferServiceTypePage": {
+    "title": "サービスタイプの選択"
+  },
+  "sellAssetsAdvancedPage": {
+    "description": "売りたいコインを選んでください。",
+    "error_invalid_amount": "金額は{{minAmount}}から{{maxAmount}}の間でなければいけません。",
+    "error_trying_to_sell_more_coins_than_you_have": "所有しているコインよりも多く売ろうとしています！",
+    "label_button_next": "次へ",
+    "label_current_asset_value": "現在の資産価値",
+    "title": "高度な資産売却"
+  },
+  "sellAssetsAmountPage": {
+    "description": "ポートフォリオの一部またはすべてを売却します。ポートフォリオの一部の売却を選択した場合は、ポートフォリオから資産を比例的に売り、現金残高に入れます。すべてを選択した場合は、全資産を現金残高に売却します。",
+    "error_max_amount": "引き出し金額は{{minAmount}}から{{maxAmount}}の間でなければいけません。",
+    "label_button_next": "次へ",
+    "label_current_value": "現在の資産価値",
+    "label_withdraw_all": "すべて売る",
+    "placeholder": "こちらに引き出し金額を入力してください",
+    "title": "資産の売却"
+  },
+  "sellSingleAssetPage": {
+    "description": "コインの数量は概算です。実際の数量は、執行時の市場価格によって異なる場合があります。",
+    "label_button_next": "次へ",
+    "label_current_coin_balance": "現在の資産残高",
+    "error_invalid_coin": "{{assetCurrencyCode}}コインは{{minAmount}}から{{maxAmount}}の間でなければいけません。",
+    "error_sell_more_coin": "お手持ち以上を売ろうとしています",
+    "label_sell_all": "すべて売る",
+    "title": "コインを売る"
+  },
+  "setPasswordPage": {
+    "alert_invalid_password": "無効なパスワード",
+    "alert_optional": "紹介コードによりB21トークンを獲得できます。紹介コードを友達に尋ねましょう。",
+    "description": "パスワードには、8文字以上、大文字1つ、特殊文字1つ、数字1つが含まれている必要があります。",
+    "label_button_next": "次へ",
+    "label_password": "パスワードを入力してください",
+    "label_referral_code": "紹介コード",
+    "label_retype_password": "パスワードを再入力してください",
+    "placeholder_password": "ここにパスワードを入力してください",
+    "placeholder_referral_code": "紹介コードを入力してください",
+    "placeholder_retype_password": "ここにパスワードを再入力してください",
+    "title": "パスワードを設定する"
+  },
+  "signUpPage": {
+    "label_button_next": "次へ",
+    "label_email": "Eメール",
+    "placeholder_email": "メールアドレスを入力してください",
+    "label_first_name": "名",
+    "placeholder_first_name": "名前を入力してください",
+    "label_last_name": "姓",
+    "placeholder_last_name": "苗字を入力してください",
+    "alert_please_enter_valid_email": "有効なメールアドレスを入力してください！",
+    "title": "サインアップ"
+  },
+  "transactionInstructionsPage": {
+    "description1": "口座に資金を入金するには、ご利用の銀行口座から下記の銀行口座に送金してください。必ず ",
+    "description2": "参照番号",
+    "description3": ".参照番号が提供されない場合、資金の入金に遅れが発生する可能性があります。",
+    "label_button_done": "完了",
+    "title": "取引手順"
+  },
+  "transactionStatusPage": {
+    "label_button_cancel": "キャンセル",
+    "label_button_copy": "コピー",
+    "label_button_report_issue": "問題を報告する",
+    "label_button_done": "完了",
+    "label_failure_button": "再度開始する",
+    "label_failure_desc": "現在、取引を処理できません。しばらくしてから、もう一度やり直してください。",
+    "label_success_desc": "お客様の取引を処理しています。現金残高を選択した場合はすぐに完了します。別の方法を選択した場合、処理には3〜5営業日かかります。注文が処理され次第、通知を送信いたします。",
+    "title": "トランザクション成功",
+    "title_failure": "処理に失敗しました"
+  },
+  "verifyMobilePage": {
+    "label_button_next": "次へ",
+    "label_enter_code_below": "ご利用のデバイスに送信されたコードを入力してください",
+    "label_problem_receiving_code": "コードの受け取りに問題がありますか？",
+    "alert_problem_receiving_code_message": "電話番号を確認してください。それでも問題が解決しない場合は、support@b21.ioにメールを送信し、使用している電話番号をお伝えください。",
+    "label_button_resend_code": "コードを再送",
+    "label_button_resend_code_timer": "コードを再送({{timer}})",
+    "alert_verification_code_sent_successfully": "確認コードが正常に送信されました",
+    "title": "携帯電話認証"
+  },
+  "withdrawAmountPage": {
+    "description": "本日はいくら出金しますか？",
+    "error_invalid_amount": "金額は{{minAmount}}から{{maxAmount}}の間でなければいけません。",
+    "error_invalid_input": "入力無効",
+    "error_more_than_have": "所有している金額よりも多く引き出そうとしています。",
+    "error_not_enough_cash_balance": "出金に十分な現金残高がありません。",
+    "label_button_go_back": "戻る",
+    "label_button_next": "次へ",
+    "label_cash_balance": "現在の現金残高",
+    "label_use_max_amount": "現金残高をすべて使用する",
+    "placeholder_enter_amount": "金額を入力してください",
+    "title": "出金額"
+  },
+  "welcomePage": {
+    "description_invest_earn": "{{firstDepositValue}}の初回デポジットにより、B21トークンで{{firstEarnValue}}を獲得できます。\n以降、最小{{investValue}}の投資ごとに、B21トークンで{{rewardB21Value}}を獲得できます。",
+    "description_invite_earn": "招待コードを使用してお友達を招待しましょう。お友達が登録プロセスを正常に完了すると、双方が{{tokenValue}}相当のB21トークンを獲得できます。",
+    "description_stack_earn": "以下のトークンを投資して、年間最大{{interest}}％の利益を得ましょう。金利は毎月支払われます。\n金利支払いの対象となるには、最低{{b21AssetsValue}} B21トークンの平均期末残高が必要です。",
+    "description_static_screen_one": "こんにちは、私たちはB21です。当社の使命はとてもシンプルです。あなたが現在ご利用のアプリを通じて、仮想通貨への投資を容易にすることです。",
+    "description_static_screen_second": "当社の便利なインターフェースを通じて、あらゆるステップをお手伝いさせていただきます。技術的な詳細はすべてこちらで処理するため、あなたは簡単に投資や、進捗状況の確認、達成報酬を獲得できます！\n\n投資を存分にお楽しみください。",
+    "description_upgrade_to_vip": "ポートフォリオにあるたったの300B21トークンでB21 VIPになって、割引手数料と限定ボーナスを手に入れましょう",
+    "label_button_next": "次へ",
+    "title": "ようこそ",
+    "title_earn": "稼ぐ",
+    "title_invest": "投資する",
+    "title_invest_earn": "投資して稼ぐ",
+    "title_invite_earn": "招待して稼ぐ",
+    "title_stack_earn": "賭けて稼ぐ",
+    "title_VIP_level": "VIPレベル"
+  },
+  "verifyUpdateMobilePage": {
+    "alert_problem_receiving_code_message": "電話番号を確認してください。それでも問題が解決しない場合は、support@b21.ioにメールを送信し、使用している電話番号をお伝えください。",
+    "alert_success_change_mobile": "携帯電話番号は正常に更新されました。",
+    "alert_verification_code_sent_successfully": "確認コードが正常に送信されました",
+    "description": "確認コードが新しい電話番号に送信されました。下に入力してください。",
+    "label_button_done": "完了",
+    "label_problem_receiving_code": "コードの受け取りに問題がありますか？",
+    "label_button_resend_code": "コードを再送",
+    "label_button_resend_code_timer": "コードを再送({{timer}})",
+    "title": "携帯電話番号を確認してください"
+  },
+  "verifyUpdateEmailPage": {
+    "alert_success_change_email": "メール認証リンクが送信されました。リンクをクリックしてメール認証を行い、プロセスを正常に完了してください。",
+    "label_button_done": "完了",
+    "label_newEmail": "新しいメール",
+    "label_oldEmail": "古いメール",
+    "title": "編集メールの確認"
+  },
+  "userProfilePage": {
+    "label_refer_friend": "友達を紹介する",
+    "label_camera": "カメラ",
+    "label_gallery": "ギャラリー",
+    "title": "マイプロフィール"
+  },
+  "uploadDocumentPage": {
+    "alert_fill_data": "すべてのデータを入力してください。",
+    "description_add_photo_id": "政府発行の有効な身分証明書の写真を追加してください。",
+    "description_upload_utility_bill": "公共料金の請求書または銀行の明細書の写真を住所証明として追加してください。",
+    "label_add_photo_id": "選択または写真を撮る",
+    "label_address_proof": "あなたの住所証明",
+    "label_button_next": "次へ",
+    "label_button_upload_utility_bill": "選択または写真を撮る",
+    "label_camera": "カメラ",
+    "label_choose_your_government_id": "身分証明書の種類を選択してください",
+    "label_driver_license": "運転免許証",
+    "label_enter_government_id_number": "国民識別番号を入力してください",
+    "label_gallery": "ギャラリー",
+    "label_government_issued_id": "政府発行の身分証明書",
+    "label_id_card": "IDカード",
+    "label_passport": "パスポート",
+    "label_upload_utility_bill": "公共料金請求書/銀行取引明細書のアップロード",
+    "title": "セキュリティを強化するため、次の項目を追加してください"
+  },
+  "updateMobilePage": {
+    "alert_enter_mobile_number": "有効な携帯電話番号を入力してください。",
+    "label_button_next": "次へ",
+    "label_new_phone": "新しい電話番号",
+    "placeholder_phone_number": "電話番号",
+    "title": "携帯電話番号の更新"
+  },
+  "updateEmailPage": {
+    "error_please_enter_valid_email": "有効なメールアドレスを入力してください！",
+    "label_button_next": "次",
+    "label_email": "Eメール",
+    "placeholder_new_email": "新しいメールIDを入力してください",
+    "title": "メールを更新"
+  },
+  "transactionHistoryPage": {
+    "label_cashBalance": "現金残高",
+    "label_complete": "成功",
+    "label_failed": "失敗",
+    "label_no_transaction_history": "取引履歴なし",
+    "label_pending": "処理中",
+    "title": "取引履歴"
+  },
+  "transactionDetailPage": {
+    "label_cashBalance": "現金残高",
+    "label_complete": "成功",
+    "label_Fees": "手数料",
+    "label_pending": "処理中",
+    "label_purchase_price": "購入金額",
+    "label_purchased": " 購入済み",
+    "label_sell_price": "売却価格",
+    "label_sold": " 売却済み",
+    "label_transaction_amount": "取引金額",
+    "title": "取引詳細"
+  },
+  "termsAndConditionsPage": {
+    "label_button_done": "完了",
+    "label_agree_terms_and_condition": "利用規約に同意します",
+    "title": "利用規約"
+  },
+  "resetPasswordPage": {
+    "alert_password_changed": "パスワードが更新されました。新しいパスワードでログインしてください。",
+    "error_enter_valid_verification_code": "有効な確認コードを入力してください",
+    "error_invalid_password": "無効なパスワード",
+    "label_button_next": "次へ",
+    "label_enter_code": "認証コードを入力してください",
+    "label_password": "パスワードを入力してください",
+    "label_retype_password": "パスワードを再入力してください",
+    "placeholder_password": "ここにパスワードを入力してください",
+    "placeholder_retype_password": "ここにパスワードを再入力してください",
+    "title": "パスワードを変更する"
+  },
+  "yearSelectorComponent": {
+    "label_button_cancel": "キャンセル"
+  },
+  "stateSelectorComponent": {
+    "label_button_cancel": "キャンセル"
+  },
+  "simpleSelectorComponent": {
+    "label_button_cancel": "キャンセル"
+  },
+  "cashBalanceInfoPage": {
+    "description": "入金して、ポートフォリオまたは単一のコインで簡単かつすばやく現金を投資できるようにしましょう",
+    "label_button_deposit_now": "今すぐ入金",
+    "label_cash_balance": "現金残高",
+    "title": "現金残高情報"
+  },
+  "upgradeToVIPPage": {
+    "label_button_continue": "継続する",
+    "description": "ポートフォリオにあるたったの300B21トークンでB21 VIPになって、割引手数料と限定ボーナスを手に入れましょう",
+    "title": "VIPにアップグレード"
+  }
+}

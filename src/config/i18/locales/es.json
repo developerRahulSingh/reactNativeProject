@@ -1,0 +1,632 @@
+{
+  "appUpdatePage": {
+    "description": "Se encuentra disponible una nueva versión de la aplicación. Es necesario que actualice a la última versión antes de poder continuar usando la aplicación.",
+    "label_button_update_now": "Actualizar ahora",
+    "label_installed_version_description": "Actualmente tiene la {{version}} instalada en su dispositivo.",
+    "label_new_version_available": "Nueva versión disponible",
+    "title": "Se requiere una actualización"
+  },
+  "actionModelComponent": {
+    "label_button_cancel": "Cancelar",
+    "label_select_image_from": "Seleccionar imagen de"
+  },
+  "buildPortfolioPage": {
+    "description": "Toque una tarjeta para agregar una Moneda a su cartera.",
+    "label_button_next": "Siguiente",
+    "title": "Construir mi cartera"
+  },
+  "buildPortfolioStatusPage": {
+    "description": "¡Excelente trabajo al crear su cartera!\n\nLuego podrá modificar estas asignaciones desde el menú de la aplicación.\n\nPara comenzar con su inversión, permítanos verificar su identidad de forma segura.",
+    "label_button_verify_me_now": "Verificarme Ahora",
+    "title": "Mi Cartera"
+  },
+  "commonAlertComponent": {
+    "label_button_cancel": "Cancelar",
+    "label_button_copy_error": "Error de Copia",
+    "label_button_okay": "Okay",
+    "label_button_show_details": "Mostrar Detalles",
+    "label_error_details": "Error de Detalle"
+  },
+  "countrySelectorComponent": {
+    "label_button_cancel": "Cancelar",
+    "placeholder_search": "Buscar"
+  },
+  "changePasswordPage": {
+    "description": "Se debe usar un mínimo de 8 caracteres, una mayúscula, un carácter especial y un número.",
+    "error_invalid_password": "Contraseña Incorrecta",
+    "label_authentication_api_failure": "¡Autenticar la falla de la API!",
+    "label_button_change_password": "Cambiar Contraseña",
+    "label_invalid_password": "Contraseña Invalida",
+    "label_new_password": "Nueva Contraseña",
+    "label_retype_password": "Reingresar Nueva Nontraseña",
+    "placeholder_new_password": "Introduzca Nueva Contraseña",
+    "title": "Cambiar Contraseña"
+  },
+  "changePasswordVerificationPage": {
+    "alert_problem_receiving_code_message": "Por favor compruebe su número de teléfono y, si aún tiene problemas, envíe un correo electrónico a support@b21.io e indique el número de teléfono que está utilizando.",
+    "alert_success_change_password": "Su nueva contraseña ha sido actualizada correctamente. Vuelva a iniciar sesión para continuar.",
+    "alert_verification_code_sent_successfully": "Código de verificación enviado correctamente",
+    "label_button_next": "Siguiente",
+    "label_button_problem_receiving_code": "¿Tiene problemas para recibir el código?",
+    "label_button_resend_code": "Reenviar codigo",
+    "label_button_resend_code_timer": "Reenviar código ({{timer}})",
+    "label_enter_code_below": "Ingrese el código enviado a su teléfono móvil",
+    "title": "Cambiar Contraseña"
+  },
+  "collectAdditionalInformationPage": {
+    "alert_fill_data": "Por favor complete los detalles correctamente.",
+    "label_button_next": "Siguiente",
+    "title": "Información Adicional"
+  },
+  "collectAddressPage": {
+    "alert_retry_states_list_loading": "¡No se pudieron cargar los estados! \nVuelva a intentarlo.",
+    "error_fields_detail": "Por favor complete todos los detalles",
+    "label_button_next": "Siguiente",
+    "title": "Dirección"
+  },
+  "collectDoBPage": {
+    "error_cannotSelectFutureDate": "Seleccione una fecha anterior a la fecha de hoy",
+    "error_olderThan18": "Debe ser mayor de 18 años para utilizar nuestro servicio",
+    "error_youngerThan110": "Debe ser menor de 110 años para utilizar nuestro servicio",
+    "label_button_done": "Listo",
+    "label_button_next": "Siguiente",
+    "placeholder_select_dob": "Seleccione su fecha de nacimiento",
+    "title": "Fecha de nacimiento"
+  },
+  "collectUniqueIDPage": {
+    "alert_fill_data": "Por favor complete los detalles correctos.",
+    "label_agree_consent": "Estoy de acuerdo",
+    "label_button_next": "Siguiente",
+    "label_consent": "Le proporciono permiso a B21 Invest para buscar en varias bases de datos para recopilar la siguiente información sobre mí:",
+    "title": "Verifiquemos su identidad de manera segura"
+  },
+  "confirmCountryPage": {
+    "label_button_next": "Siguiente",
+    "label_country": "País",
+    "title": "Confirme su país"
+  },
+  "confirmNamePage": {
+    "alert_fields_detail": "Por favor ingrese todos los detalles",
+    "label_button_next": "Siguiente",
+    "title": "Confirme su nombre"
+  },
+  "countryNotSupportedPage": {
+    "label_country_not_supported": "Desafortunadamente, su país no es compatible con B21 en este momento, vuelva a consultar pronto ya que estamos ampliando constantemente nuestro alcance!"
+  },
+  "customizeAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "por favor desbloquee monedas para ajustar automáticamente las asignaciones",
+    "description": "Use los botones de más, menos y bloquear para personalizar cómo se invertirán sus fondos entrantes. Las monedas desbloqueadas se ajustarán automáticamente.",
+    "title": "Personalizar mi Cartera"
+  },
+  "dashboardPortfolioListComponent": {
+    "label_moreOptions": "Más Opciones"
+  },
+  "dashboardPage": {
+    "alert_button_buy": "Comprar Moneda",
+    "alert_button_sell": "Vender Moneda",
+    "alert_exit_application": "¿Estásseguro de que quiere cerrar la aplicación?",
+    "alert_sell_buy_assets": "¿Desea comprar o vender?",
+    "error_no_coin_portfolio": "Aún no ha creado su cartera.",
+    "label_button_invest_now": "Invierta Ahora",
+    "label_cashBalance": "Saldo en Efectivo",
+    "label_currentValue": "Valor Actual",
+    "label_gain": "Ganancias",
+    "label_invested": "Invertido",
+    "label_myPortfolio": "Mi Portafolio",
+    "label_return": "Devoluciones",
+    "title": "Tablero",
+    "title_exit_application": "¿Salir?"
+  },
+  "declareSourceOfFundsPage": {
+    "label_button_next": "Siguiente",
+    "title": "Declarar fuente de los fondos"
+  },
+  "earnPage": {
+    "alert_success_b21_card": "Gracias por reservar su tarjeta. Le contactaremos tan pronto esté disponible su tarjeta",
+    "description_invest_earn": "El primer depósito de {{firstDepositValue}} le otoroga {{firstEarnValue}} en tokens de B21.\nCada inversión mínima subsiguiente de {{investValue}}, le otorga {{rewardB21Value}} en tokens de B21.",
+    "description_invite_earn": "Invite a sus amigos usando su código de invitación Una vez completen exitosamente el proceso de registro, ambos ganarán el valor equivalente a {{tokenValue}} en tokens de B21.",
+    "description_stack_earn": "Ponga los tokens a continuación en stake para un retorno de hasta {{interest}}% por año. El interés será pagado mensualmente.\nEs necesario un balance promedio y final de mínimo {{b21AssetsValue}} tokens de B21 tokens para ser elegible para el pago de intereses.",
+    "label_button_deposit_now": "Deposite ahora",
+    "label_button_more_details": "Detalles",
+    "label_button_reserve_now": "Reserve ya",
+    "label_button_share_now": "Compartir ahora",
+    "label_button_buy_now": "Comprar Ahora",
+    "label_referral_code": "Su código de referencia",
+    "title": "Gane",
+    "title_invest_earn": "Invierta y gane",
+    "title_invite_earn": "Invite y gane",
+    "title_reserve_b21_card": "Reserve su tarjeta B21",
+    "title_stack_earn": "Apueste y gane"
+  },
+  "forgotPasswordPage": {
+    "alert_please_enter_valid_email": "¡Por favor, introduzca una dirección de correo electrónico válida!",
+    "label_button_next": "Siguiente",
+    "label_email": "Correo Electrónico",
+    "placeholder_user_name": "Introduzca su Nombre de Usuario",
+    "title": "Olvidé mi Contraseña"
+  },
+  "goalDashboardCardViewComponent": {
+    "label_button_buy_now": "Comprar Ahora"
+  },
+  "helpPage": {
+    "label_support_b21": "support@b21.io",
+    "label_support_mail": "Correo Electrónico de Apoyo",
+    "title": "Ayuda"
+  },
+  "languageSelectorComponent": {
+    "label_english": "Inglés",
+    "label_japanese": "Japonés",
+    "label_korean": "Coreano",
+    "label_button_cancel": "Cancelar",
+    "label_russian": "Ruso",
+    "label_spanish": "Español"
+  },
+  "legalPage": {
+    "title": "Legal"
+  },
+  "loginPage": {
+    "alert_please_enter_valid_email": "¡Por favor, introduzca una dirección de correo electrónico válida!",
+    "label_button_forgot_password": "¿Olvidó su Contraseña?",
+    "label_button_login": "Iniciar sesión",
+    "label_button_sign_up": "¡Regístrese Ahora!",
+    "label_dont_have_account": "¿No tiene una cuenta?",
+    "label_email": "Correo electrónico",
+    "label_language": "Idioma :",
+    "label_password": "Contraseña",
+    "label_version": "Versión ",
+    "placeholder_enter_email": "Ingrese su dirección de correo electrónico",
+    "placeholder_enter_password": "Ingrese la contraseña aquí",
+    "title": "Iniciar sesión"
+  },
+  "manageInvestmentAllocationPage": {
+    "alert_please_unlock_currencies_to_auto_adjust_allocations": "Desbloquee monedas para ajustar automáticamente las asignaciones",
+    "description": "Use los botones más, menos y bloquear para personalizar cómo se invertirán sus fondos entrantes. Las monedas desbloqueadas se ajustarán automáticamente.",
+    "label_add_other_coins": "Agregar otras Monedas",
+    "label_my_portfolio_allocation": "Asignación de mi Cartera",
+    "title": "Asignación de Inversiones"
+  },
+  "menuPage": {
+    "alert_complete_kyc": "Verifique su cuenta.",
+    "alert_kyc_pending": "Su verificación KYC se encuentra pendiente.",
+    "alert_sure": "Confirme por favor",
+    "label_app_settings": "Ajustes de la Aplicacion",
+    "label_button_deposit": "Depósito al Saldo en Efectivo",
+    "label_button_help": "Ayuda",
+    "label_button_investment_allocation": "Asignación de Inversiones",
+    "label_button_language": "Idioma",
+    "label_button_legal": "Legal",
+    "label_button_logout": "Cerrar sesión",
+    "label_button_profile": "Perfil",
+    "label_button_profit_loss_report": "Informe de Ganancias/Pérdidas",
+    "label_button_security": "Seguridad",
+    "label_button_transaction_history": "Historial de Transacciones",
+    "label_button_withdraw": "Extraer Saldo de Caja",
+    "label_change_password": "Cambiar la contraseña",
+    "label_disable_pin": "Deshabilitar configuración de PIN al iniciar sesión",
+    "label_enable_pin": "Habilitar configuración de PIN al iniciar sesión",
+    "label_logout_popup_description": "¿Confirmar cierre de sesión?",
+    "label_my_account": "Mi Cuenta",
+    "label_remove_pin": "Eliminar Seguridad de PIN",
+    "label_version": "Versión ",
+    "title": "Menú",
+    "title_alert_kyc": "Se Requiere KYC",
+    "title_logout_popup": "¿Cerrar sesión?"
+  },
+  "portfolioAllocationSummaryPage": {
+    "description": "Su asignación es cómo se invertirán sus nuevas inversiones.",
+    "label_button_customize": "Personalizar",
+    "title": "Resumen"
+  },
+  "profitLossReportPage": {
+    "alert_send_email_success": "Correo electrónico enviado exitosamente...",
+    "description": "Obtenga su estado de ganancias/pérdidas en su correo electrónico.",
+    "label_button_submit": "Enviar",
+    "label_excel": "Excel",
+    "label_pdf": "PDF",
+    "label_select_year": "Seleccionar Año",
+    "label_year_to_date": " EHF",
+    "title": "Informe de ganancias/pérdidas"
+  },
+  "pinCodeGenerateComponent": {
+    "label_enter_pin": "Paso 1: Ingresar PIN",
+    "label_confirm_pin": "Paso 2: Confirmar PIN"
+  },
+  "pinCodeValidateComponent": {
+    "label_enter_pin": "Paso 1: Ingresar PIN"
+  },
+  "addMobilePage": {
+    "alert_enter_mobile_number": "Ingrese un número de teléfono móvil válido.",
+    "description": "Recibirá un SMS con un código para verificar su número de teléfono móvil.",
+    "label_button_next": "Siguiente",
+    "label_phone_number": "Número de Teléfono",
+    "placeholder_phone_number": "Número de Teléfono",
+    "title": "Agregar número de teléfono móvil"
+  },
+  "addPaymentInstrumentDynamicFieldsPage": {
+    "alert_successfully_add_account": "Ha agregado la cuenta correctamente.",
+    "label_button_next": "Siguiente",
+    "title": "Agregar Detalles de {{title}} "
+  },
+  "addPaymentInstrumentWebViewPage": {
+    "title": "Proporcione Detalles de {{piTypeName}}"
+  },
+  "addPaymentInstrumentWidgetPage": {
+    "description": "Se lo dirigirá al {{provider}}, donde podrá completar el proceso para agregar la cuenta.",
+    "label_account_name": "Nombre que se muestra en la cuenta",
+    "label_not_supported": "No Compatible",
+    "label_process_complete": "Ha agregado con éxito la cuenta. Regrese para seleccionar y continuar el proceso de pagos.",
+    "label_start_process": "Iniciar Proceso",
+    "placeholder_account_name": "Ingrese el nombre para mostrar de la cuenta",
+    "title": "Proporcione Detalles de {{piTypeName}} "
+  },
+  "alternateLoginPage": {
+    "alert_skip_pin_setup": "Está omitiendo la configuración del inicio de sesión basado en un PIN. Confirma por favor.",
+    "label_button_login": "Inicie sesión nuevamente",
+    "label_button_skip_setup": "Saltar configuración PIN",
+    "title_generate_pin": "Paso 1: IngresarPIN",
+    "title_generate_pin_confirm": "Paso 2: Confirmar PIN",
+    "title_setup": "Crear PIN para iniciar sesión",
+    "title_validate": "PIN de inicio de sesión",
+    "title_validate_pin": "Ingresar PIN"
+  },
+  "amountCalculatorComponent": {
+    "label_coin_amount": "Cantidad ({{currencyCode}})",
+    "label_coin_quantity": "Cantidad de monedas ({{cryptoCurrencyCode}})",
+    "label_crypto_currency_coins": "{{cryptoCurrencyCode}} Monedas",
+    "label_currency_value": "Valor {{currencyCode}}",
+    "placeholder_amount": "Ingresar importe",
+    "placeholder_quantity": "Ingresar cantidad"
+  },
+  "buySingleAssetPage": {
+    "description": "Las cantidades de monedas son una estimación. La cantidad real puede variar según el precio de mercado en el momento de la ejecución.",
+    "error_deposit_amount_limit": "El valor del activo debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "error_invalid_coin": "La moneda {{assetCurrencyCode}} debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "error_more_than_available_cash_balance": "El monto ingresado es mayor al saldo de efectivo disponible.",
+    "label_button_next": "Siguiente",
+    "label_cash_balance": "Saldo Actual en Efectivo",
+    "label_use_cash_balance": "Usar saldo en efectivo",
+    "label_use_full_cash_balance": "Usar saldo total en efectivo",
+    "title": "Comprar Monedas"
+  },
+  "cashBalanceActionsPage": {
+    "alert_complete_kyc": "Complete su proceso KYC para extracciones.",
+    "alert_kyc_pending": "Su verificación de KYC está pendiente. Una vez aprobada, puede realizar extracciones.",
+    "label_button_deposit_to_cash_balance": "Depósito al saldo en efectivo",
+    "label_button_invest": "Invertir en la asignación actual",
+    "label_button_sell_from_portfolio": "Vender desde la cartera",
+    "label_button_withdraw_cash_balance": "Extraer saldo en efectivo",
+    "title": "Saldo en efectivo",
+    "title_alert_kyc": "KYC requerido"
+  },
+  "coinInfoPage": {
+    "label_button_asset_transaction": "{{buttonTitle}} Ahora",
+    "label_buy": "Compre",
+    "label_coin_name": "Nombre de la moneda",
+    "label_exchange_rate": "Tipo de cambio",
+    "label_sell": "Vender",
+    "title": "{{title}} Monedas"
+  },
+  "common": {
+    "alert_api_failure": "No se pudo completar el proceso. Vuelve a intentarlo más tarde.",
+    "alert_email_already_registered": "¡La dirección electrónica ya está registrada!",
+    "alert_fill_details": "Por favor complete todos los detalles",
+    "alert_session_expire": "Su sesión ha caducado. Inicie sesión con sus credenciales.",
+    "label_app_name": "B21 Invest",
+    "label_bank_account": "Cuenta bancaria",
+    "label_share_content": "Estoy disfrutando invertir en criptoactivos usando B21 Invest. Puedes empezar a hacer lo mismo. ¡Arma tu portafolio hoy mismo! use mi código ({{code}}) al registrarse para ganar tokens de referido.",
+    "label_upgrade_now": "( Actualizar ahora )",
+    "title_session_expire": "Sesión expirada"
+  },
+  "confirmTransactionPage": {
+    "label_button_invest_now": "Confirmar",
+    "label_buy_single_asset": "Compre un único activo utilizando {{piTypeDisplayName}}.",
+    "label_card_name": "({{AcctDisplayName}})",
+    "label_cash_balance_after_investment": "Saldo de caja después de la transacción",
+    "label_deposit_cash_balance_using_bank_or_card": "Deposite la cantidad en el saldo en efectivo usando {{piTypeDisplayName}}.",
+    "label_investment_amount": "Cantidad de transacción",
+    "label_investment_flow": "Inversión en cartera utilizando {{piTypeDisplayName}}.",
+    "label_purpose_not_define": "Propósito de la transacción no definido.",
+    "label_sell_full_portfolio": "Vender el monto total de la cartera y deposita en el saldo en efectivo.",
+    "label_sell_multiple_assets": "Vender múltiples activos de la cartera y el monto del depósito en el saldo en efectivo.",
+    "label_sell_partial_portfolio": "Vender el monto parcial de la cartera y deposita en el saldo en efectivo.",
+    "label_sell_single_asset": "Vender un sólo activo de la cartera y el monto del depósito en el saldo en efectivo.",
+    "label_sold_assets": "Activos para vender",
+    "label_source": "Fuente",
+    "label_under_development": "Esto se encuentra en desarrollo",
+    "label_withdraw_full": "Extraer el monto total del saldo en efectivo al Banco.",
+    "label_withdraw_partial": "Extraer una cantidad parcial del saldo en efectivo al Banco.",
+    "title": "Confirmar resumen de transacción"
+  },
+  "registrationStatusPage": {
+    "label_button_Invest_now": "Invertir ahora",
+    "label_button_skip": "Omitir",
+    "description": "Usted ha proporcionado todo lo que necesitamos de usted para verificar su identidad como Inversionista B21. Ahora ingresemos algunos detalles de pago rápidos para completar su inversión. Recuerde, la inversión en activos digitales es volátil y conlleva riesgos, le recomendamos que invierta sabiamente.",
+    "title": "¡Felicitaciones!"
+  },
+  "depositAmountPage": {
+    "description": "¿Cuánto desea agregar en el saldo en efectivo?",
+    "error_invalid_amount": "La cantidad debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "label_button_next": "Siguiente",
+    "placeholder_enter_amount": "Ingresar Cantidad",
+    "title": "Cantidad del Depósito"
+  },
+  "emailConfirmationPage": {
+    "alert_checkEmailAndContactSupport": "Revise su correo electrónico. Si aún enfrenta el problema, envíe un correo electrónico a support@b21.io desde su ID de correo electrónico registrado.",
+    "alert_emailNotVerified": "Su correo electrónico aún no ha sido verificado, verifique para continuar.",
+    "alert_verificationLinkSend": "Toque el enlace de verificación de correo electrónico enviado a su dirección de correo electrónico registrada",
+    "description": "Toque el enlace de verificación que se envió desde b21 en el correo electrónico {{email}}",
+    "label_button_confirmed": "He confirmado",
+    "label_button_edit_email": "Editar correo electrónico",
+    "label_button_problemsReceivingCode": "¿Está teniendo problemas para recibir el correo electrónico?",
+    "label_button_resend_email": "Reenviar correo electrónico",
+    "label_button_resend_email_timer": "Reenviar correo electrónico ({{timer}})",
+    "title": "Confirmar su correo electrónico"
+  },
+  "emailEditConfirmationPage": {
+    "label_button_update_email": "Actualizar la dirección de correo electrónico",
+    "label_newEmail": "Nuevo correo electrónico",
+    "label_oldEmail": "Correo electrónico antiguo",
+    "title": "Confirmar edición de correo electrónico"
+  },
+  "emailEditPage": {
+    "alert_enter_valid_email": "¡Por favor, introduzca una dirección de correo electrónico válida!",
+    "label_button_done": "Listo",
+    "label_email": "Correo electrónico",
+    "placeholder_email": "Ingrese su nueva identificación de correo electrónico",
+    "title": "Actualizar correo electrónico"
+  },
+  "investmentAmountPage": {
+    "description": "¿Cuánto desea invertir hoy?",
+    "error_invalid_amount": "La cantidad debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "error_minimum_cash_balance": "Se requiere un mínimo de {{minAmount}} para la inversión.",
+    "label_button_next": "Siguiente",
+    "label_cash_balance": "Saldo actual en efectibo",
+    "label_use_cash_balance": "Usar saldo en efectivo",
+    "label_use_max_amount": "Usar saldo total de efectivo",
+    "placeholder_enter_amount": "Ingresar cantidad",
+    "title": "Monto de la inversión"
+  },
+  "selectPaymentInstrumentPage": {
+    "error_not_supported": "Este método de pago no admite agregar",
+    "label_add_new_debit_card": "Agregar nuevo {{piTypeName}}",
+    "label_nothing_saved": "No se agregó {{piTypeName}}",
+    "label_saved": "Guardado {{piTypeName}}",
+    "label_use_this": "Use este",
+    "title": "{{title}}"
+  },
+  "selectPaymentInstrumentTypePage": {
+    "error_coming_soon": "Pronto",
+    "title": "Seleccione Método de Pago"
+  },
+  "selectSellAssetsOptionPage": {
+    "description": "Aquí puede vender sus activos y convertirlos en saldo en efectivo",
+    "label_advanced_sell_assets": "Activos de venta avanzada",
+    "label_advanced_sell_assets_note": "* Venda activos específicos de su cartera.",
+    "label_sell_assets": "Vender activos",
+    "title": "Menú de venta de activos"
+  },
+  "selectTransferServiceTypePage": {
+    "title": "Elija el Tipo de Servicio"
+  },
+  "sellAssetsAdvancedPage": {
+    "description": "Seleccione la moneda que desea vender.",
+    "error_invalid_amount": "La cantidad debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "error_trying_to_sell_more_coins_than_you_have": "¡Está tratando de vender más monedas de las que tiene!",
+    "label_button_next": "Siguiente",
+    "label_current_asset_value": "Valor de activo actual",
+    "title": "Venta avanzada de activos"
+  },
+  "sellAssetsAmountPage": {
+    "description": "Venda parcialmente o la totalidad de su cartera. Si elige vender parte de su cartera, venderemos proporcionalmente los activos de su cartera y acreditaremos su saldo en efectivo. Si elige todo, venderemos todos sus activos al saldo en efectivo.",
+    "error_max_amount": "El monto del retiro debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "label_button_next": "Siguiente",
+    "label_current_value": "Valor de activo actual",
+    "label_withdraw_all": "Vender todo",
+    "placeholder": "Ingrese el monto de extracción aquí",
+    "title": "Vender activos"
+  },
+  "sellSingleAssetPage": {
+    "description": "Las cantidades de monedas son un estimado. La cantidad real puede variar según el precio de mercado en el momento de la ejecución.",
+    "label_button_next": "Siguiente",
+    "label_current_coin_balance": "Saldo actual de activos",
+    "error_invalid_coin": "La moneda {{assetCurrencyCode}} debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "error_sell_more_coin": "Está tratando de vender más de lo que tiene",
+    "label_sell_all": "Vender todo",
+    "title": "Vender monedas"
+  },
+  "setPasswordPage": {
+    "alert_invalid_password": "Contraseña inválida",
+    "alert_optional": "El código de referencia le hace ganar tokens de B21. Pída el código de referencia a sus amigos",
+    "description": "Una contraseña debe contener un mínimo de 8 caracteres, una letra mayúscula, un carácter especial y un número.",
+    "label_button_next": "Siguiente",
+    "label_password": "Ingrese su contraseña",
+    "label_referral_code": "Código de referencia",
+    "label_retype_password": "Reingrese su contraseña",
+    "placeholder_password": "Ingrese la contraseña aquí",
+    "placeholder_referral_code": "Introduzca su código de referencia",
+    "placeholder_retype_password": "Vuelva a ingresar la contraseña aquí",
+    "title": "Establezca su contraseña"
+  },
+  "signUpPage": {
+    "label_button_next": "Siguiente",
+    "label_email": "Correo electrónico",
+    "placeholder_email": "Ingrese su dirección de correo electrónico",
+    "label_first_name": "Primer Nombre",
+    "placeholder_first_name": "Ingrese su primer nombre",
+    "label_last_name": "Apellido",
+    "placeholder_last_name": "Ingrese su apellido",
+    "alert_please_enter_valid_email": "¡Por favor, introduzca una dirección de correo electrónico válida!",
+    "title": "Regístrese"
+  },
+  "transactionInstructionsPage": {
+    "description1": "Para depositar fondos en su cuenta, transfiérala desde su cuenta bancaria a los detalles bancarios a continuación. Asegúrese de incluir el ",
+    "description2": "número de referencia",
+    "description3": ". Si no se proporciona el número de referencia, provocará demoras en la acreditación de los fondos.",
+    "label_button_done": "Listo",
+    "title": "Instrucciones de transacción"
+  },
+  "transactionStatusPage": {
+    "label_button_cancel": "Cancelar",
+    "label_button_copy": "Copiar",
+    "label_button_report_issue": "Informar el problema",
+    "label_button_done": "Listo",
+    "label_failure_button": "Empezar de nuevo",
+    "label_failure_desc": "No podemos procesar su transacción en este momento. Espere e intente nuevamente más tarde.",
+    "label_success_desc": "Estamos procesando su transacción, si seleccionó Saldo en Efectivo, esto sucederá de inmediato, si seleccionó otro método, demorará de 3 a 5 días hábiles en procesarse. Le enviaremos notificaciones tan pronto como se haya procesado su pedido. ",
+    "title": "Transacción exitosa",
+    "title_failure": "Transacción fallida"
+  },
+  "verifyMobilePage": {
+    "label_button_next": "Siguiente",
+    "label_enter_code_below": "Ingrese el código enviado a su teléfono móvil",
+    "label_problem_receiving_code": "¿Tiene problemas para recibir el código?",
+    "alert_problem_receiving_code_message": "Compruebe su número de teléfono y, si aún tiene problemas, envíe un correo electrónico a support@b21.io y indique el número de teléfono que está utilizando.",
+    "label_button_resend_code": "Reenviar codigo",
+    "label_button_resend_code_timer": "Reenviar código ({{timer}})",
+    "alert_verification_code_sent_successfully": "Código de verificación enviado correctamente",
+    "title": "Verificación del teléfono móvil"
+  },
+  "withdrawAmountPage": {
+    "description": "¿Cuánto desea extraer hoy?",
+    "error_invalid_amount": "La cantidad debe estar entre {{minAmount}} y {{maxAmount}}.",
+    "error_invalid_input": "Entrada inválida",
+    "error_more_than_have": "Está tratando de retirar una cantidad mayor de la que tiene.",
+    "error_not_enough_cash_balance": "No tiene suficiente saldo en efectivo para una extracción.",
+    "label_button_go_back": "Volver",
+    "label_button_next": "Siguiente",
+    "label_cash_balance": "Saldo en efectivo actual",
+    "label_use_max_amount": "Usar saldo total de efectivo",
+    "placeholder_enter_amount": "Ingresar cantidad",
+    "title": "Importe de la extracción"
+  },
+  "welcomePage": {
+    "description_invest_earn": "El primer depósito de {{firstDepositValue}} le otoroga {{firstEarnValue}} en tokens de B21.\nCada inversión mínima subsiguiente de {{investValue}}, le otorga {{rewardB21Value}} en tokens de B21.",
+    "description_invite_earn": "Invite a sus amigos usando su código de invitación Una vez completen exitosamente el proceso de registro, ambos ganarán el valor equivalente a {{tokenValue}} en tokens de B21.",
+    "description_stack_earn": "Ponga los tokens a continuación en stake para un retorno de hasta {{interest}}% por año. El interés será pagado mensualmente.\nEs necesario un balance promedio y final de mínimo {{b21AssetsValue}} tokens de B21 tokens para ser elegible para el pago de intereses.",
+    "description_static_screen_one": "Hola, somos B21. Nuestra misión es simple. A través de la aplicación que tienes actualmente en tus manos, te facilitaremos la inversión en criptomonedas.",
+    "description_static_screen_second": "A través de nuestra sencilla interfaz, lo guiaremos en cada paso del camino. Nos ocuparemos de todos los detalles técnicos para que pueda invertir fácilmente, ver su progreso y cosechar las recompensas cuando lo consiga.\n\nFeliz inversión",
+    "description_upgrade_to_vip": "Conviértase en VIP B21 con solo 300 tokens B21 en su portafolio y obtenga tarifas reducidas y bonos exclusivos",
+    "label_button_next": "Siguiente",
+    "title": "Bienvenido",
+    "title_earn": "Gane",
+    "title_invest": "Invierta",
+    "title_invest_earn": "Invierta y gane",
+    "title_invite_earn": "Invite y gane",
+    "title_stack_earn": "Apueste y gane",
+    "title_VIP_level": "Nivel VIP"
+  },
+  "verifyUpdateMobilePage": {
+    "alert_problem_receiving_code_message": "Compruebe su número de teléfono y, si aún tiene problemas, envíe un correo electrónico a support@b21.io e indique el número de teléfono que está utilizando.",
+    "alert_success_change_mobile": "Su número de teléfono móvil se ha actualizado correctamente.",
+    "alert_verification_code_sent_successfully": "Código de verificación enviado correctamente",
+    "description": "Se ha enviado un código de verificación a su nuevo número de teléfono. Por favor ingréselo a continuación.",
+    "label_button_done": "Listo",
+    "label_problem_receiving_code": "¿Tiene problemas para recibir el código?",
+    "label_button_resend_code": "Reenviar codigo",
+    "label_button_resend_code_timer": "Reenviar código ({{timer}})",
+    "title": "Verifique su número de teléfono móvil"
+  },
+  "verifyUpdateEmailPage": {
+    "alert_success_change_email": "Se envío el enlace de verificación de correo electrónico. Verifique el correo electrónico haciendo clic en el enlace para completar el proceso existosamente.",
+    "label_button_done": "Listo",
+    "label_newEmail": "Nuevo Correo Electrónico",
+    "label_oldEmail": "Correo electrónico antiguo",
+    "title": "Confirmar edición de correo electrónico"
+  },
+  "userProfilePage": {
+    "label_refer_friend": "Refiera a un amigo",
+    "label_camera": "Cámara",
+    "label_gallery": "Galería",
+    "title": "Mi Perfil"
+  },
+  "uploadDocumentPage": {
+    "alert_fill_data": "Por favor complete todos los datos.",
+    "description_add_photo_id": "Agregue una foto válida de su identidad emitida por el gobierno.",
+    "description_upload_utility_bill": "Agregue una foto de su factura de servicios públicos o extracto bancario como prueba de su dirección.",
+    "label_add_photo_id": "Seleccionar o tomar fotografía",
+    "label_address_proof": "Prueba de su dirección",
+    "label_button_next": "Siguiente",
+    "label_button_upload_utility_bill": "Seleccionar o tomar fotografía",
+    "label_camera": "Cámara",
+    "label_choose_your_government_id": "Elija el tipo de identificación del gobierno",
+    "label_driver_license": "Licencia de conducir",
+    "label_enter_government_id_number": "Ingrese el número de identificación del gobierno",
+    "label_gallery": "Galería",
+    "label_government_issued_id": "Su identificación emitida por el gobierno",
+    "label_id_card": "Tarjeta de identificación",
+    "label_passport": "Pasaporte",
+    "label_upload_utility_bill": "Suba su factura de servicios públicos/extracto bancario",
+    "title": "Para mayor seguridad, agregue lo siguiente"
+  },
+  "updateMobilePage": {
+    "alert_enter_mobile_number": "Ingrese un número de teléfono móvil válido.",
+    "label_button_next": "Siguiente",
+    "label_new_phone": "Nuevo número de teléfono",
+    "placeholder_phone_number": "Número de teléfono",
+    "title": "Actualizar número de teléfono móvil"
+  },
+  "updateEmailPage": {
+    "error_please_enter_valid_email": "¡Por favor, introduzca una dirección de correo electrónico válida!",
+    "label_button_next": "Siguiente",
+    "label_email": "Correo electrónico",
+    "placeholder_new_email": "Ingrese su nueva identificación de correo electrónico",
+    "title": "Actualizar correo electrónico"
+  },
+  "transactionHistoryPage": {
+    "label_cashBalance": "Saldo en Efectivo",
+    "label_complete": "Exitoso",
+    "label_failed": "Fallo",
+    "label_no_transaction_history": "Sin historial de transacciones",
+    "label_pending": "Pendiente",
+    "title": "Historial de transacciones"
+  },
+  "transactionDetailPage": {
+    "label_cashBalance": "Saldo en Efectivo",
+    "label_complete": "Exitoso",
+    "label_Fees": "Tarifas",
+    "label_pending": "Pendiente",
+    "label_purchase_price": "Precio de compra",
+    "label_purchased": " Comprado",
+    "label_sell_price": "Precio de venta",
+    "label_sold": " Vendido",
+    "label_transaction_amount": "Cantidad de transacción",
+    "title": "Detalles de la transacción"
+  },
+  "termsAndConditionsPage": {
+    "label_button_done": "Listo",
+    "label_agree_terms_and_condition": "Acepto los términos y condiciones",
+    "title": "Términos y condiciones"
+  },
+  "resetPasswordPage": {
+    "alert_password_changed": "Su contraseña ha sido actualizada, inicie sesión con una nueva contraseña.",
+    "error_enter_valid_verification_code": "Ingrese el código de verificación válido",
+    "error_invalid_password": "Contraseña invalida",
+    "label_button_next": "Siguiente",
+    "label_enter_code": "Ingrese el código de verificación",
+    "label_password": "Ingrese su contraseña",
+    "label_retype_password": "Reingrese su contraseña",
+    "placeholder_password": "Ingrese la contraseña aquí",
+    "placeholder_retype_password": "Vuelva a ingresar la contraseña aquí",
+    "title": "Cambie la contraseña"
+  },
+  "yearSelectorComponent": {
+    "label_button_cancel": "Cancelar"
+  },
+  "stateSelectorComponent": {
+    "label_button_cancel": "Cancelar"
+  },
+  "simpleSelectorComponent": {
+    "label_button_cancel": "Cancelar"
+  },
+  "cashBalanceInfoPage": {
+    "description": "Deposite y mantenga efectivo disponible para invertir de manera rápida y sencilla en su portafolio o en una moneda particular.",
+    "label_button_deposit_now": "Deposite ahora",
+    "label_cash_balance": "Balance de efectivo",
+    "title": "Información del balance de efectivo"
+  },
+  "upgradeToVIPPage": {
+    "label_button_continue": "Seguir",
+    "description": "Conviértase en VIP B21 con solo 300 tokens B21 en su portafolio y obtenga tarifas reducidas y bonos exclusivos",
+    "title": "Actualizar a VIP"
+  }
+}
