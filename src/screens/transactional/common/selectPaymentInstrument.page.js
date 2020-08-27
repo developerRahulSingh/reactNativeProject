@@ -114,7 +114,7 @@ export default class SelectPaymentInstrumentPage extends BasePage {
         </View>
         <View style={commonStyle.bottomButtonContainer}>
           <StandardButton
-            disabled={this.props.navigationProps.paymentInstrumentRequirements.MaximumPaymentInstruments <= this.state.paymentInstrumentsArr?.length}
+            // disabled={this.props.navigationProps.paymentInstrumentRequirements.MaximumPaymentInstruments <= this.state.paymentInstrumentsArr?.length}
             onPress={this._addNewClick}
             color={commonTheme.COLOR_SECONDARY}
             labelText={strings('selectPaymentInstrumentPage.label_add_new_debit_card', {piTypeName: this.props.navigationProps.piType?.PIType.PITypeName === paymentInstrumentDisplayName.BankTransfer ? strings('common.label_bank_account') : this.props.navigationProps.piType?.PIType.PITypeDisplayName})}

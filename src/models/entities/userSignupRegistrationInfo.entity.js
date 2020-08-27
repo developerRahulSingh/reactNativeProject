@@ -2,6 +2,7 @@ class UserSignupRegistrationInfoEntity {
   AggregateKYCPassed: boolean;
   ChangeAddressRequestVerificationStatus: string;
   EmailVerified: boolean;
+  GoalAllocationCreated: boolean;
   KYCEVerificationFailed: boolean;
   KYCPassed: boolean;
   KYCPassportUploaded: boolean;
@@ -15,6 +16,7 @@ class UserSignupRegistrationInfoEntity {
   MobilePhoneVerified: boolean;
   PhoneCountryCodeEVerifySupported: string;
   PhoneCountryCodeSignupSupported: string;
+  RegistrationSubmitted: boolean
   SourceOfFunds: string;
   TermsAndConditionsAccepted: boolean;
   UpdateEmailVerified: boolean;

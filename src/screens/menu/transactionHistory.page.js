@@ -94,6 +94,19 @@ export default class TransactionHistoryPage extends BasePage {
       item.Pending ? commonTheme.COLOR_WARNING :
         item.Failed ? commonTheme.COLOR_DANGER :
           commonTheme.COLOR_FADED;
+    let transactionTypeName = '';
+    if (item.AssociatedTSTypeDisplayName) {
+      transactionTypeName = item.AssociatedTSTypeDisplayName;
+    } else {
+      if (item.TransactionType === 'Reward') {
+        transactionTypeName = item.Description;
+      } else if (item.TransactionType === 'Transfer In') {
+        transactionTypeName = `${strings('transactionHistoryPage.label_assets')} (${item.AssetTrades[0].AssetCurrencyCode})`;
+      } else {
+        transactionTypeName = strings('transactionHistoryPage.label_cashBalance');
+      }
+    }
+
     return (
       <View style={pageStyle.historyItemContainer}>
         <TouchableOpacity
@@ -105,9 +118,7 @@ export default class TransactionHistoryPage extends BasePage {
             <MediumText>
               {item.TransactionTypeDisplayName}
             </MediumText>
-            <RegularText
-              style={pageStyle.tsTypeTextStyle}>{item.AssociatedTSTypeDisplayName ? item.AssociatedTSTypeDisplayName : item.TransactionType === 'Reward' ? item.Description :
-              strings('transactionHistoryPage.label_cashBalance')}</RegularText>
+            <RegularText style={pageStyle.tsTypeTextStyle}>{transactionTypeName}</RegularText>
           </View>
           <View style={pageStyle.transactionTypeDetailContainer}>
             <MediumText>

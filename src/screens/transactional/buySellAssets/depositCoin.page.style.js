@@ -28,7 +28,8 @@ const pageStyle = StyleSheet.create({
   infoTextContainer: {
     flex: 1,
     paddingVertical: 4,
-    paddingEnd: 4,
+    display: 'flex',
+    alignItems: 'center',
   },
   infoCopyButtonContainer: {
     ...commonStyle.contentCenter,
@@ -45,7 +46,6 @@ const pageStyle = StyleSheet.create({
   },
   qrCodeContainer: {
     alignSelf: 'center',
-    paddingBottom: 16,
   },
   infoContentContainer: {
     margin: 16,

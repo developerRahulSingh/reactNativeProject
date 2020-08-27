@@ -52,6 +52,18 @@ export default class TransactionDetailPage extends BasePage {
       this.props.navigationProps.data?.Pending ? commonTheme.COLOR_WARNING :
         this.props.navigationProps.data?.Failed ? commonTheme.COLOR_DANGER :
           commonTheme.COLOR_FADED;
+    let transactionTypeName = '';
+    if (this.props.navigationProps.data?.AssociatedTSTypeDisplayName) {
+      transactionTypeName = this.props.navigationProps.data?.AssociatedTSTypeDisplayName;
+    } else {
+      if (this.props.navigationProps.data?.TransactionType === 'Reward') {
+        transactionTypeName = this.props.navigationProps.data?.Description;
+      } else if (this.props.navigationProps.data?.TransactionType === 'Transfer In') {
+        transactionTypeName = strings('transactionDetailPage.label_assets');
+      } else {
+        transactionTypeName = strings('transactionDetailPage.label_cashBalance');
+      }
+    }
     return (
       <View style={commonStyle.container}>
         <BackNavTitle
@@ -68,11 +80,7 @@ export default class TransactionDetailPage extends BasePage {
                     {this.props.navigationProps.data?.TransactionTypeDisplayName}
                   </MediumText>
                   <RegularText style={pageStyle.tsTypeTextStyle}>
-                    {this.props.navigationProps.data?.AssociatedTSTypeDisplayName ?
-                      this.props.navigationProps.data?.AssociatedTSTypeDisplayName :
-                      this.props.navigationProps.data?.TransactionType === 'Reward' ?
-                        this.props.navigationProps.data?.Description :
-                        strings('transactionDetailPage.label_cashBalance')}
+                    {transactionTypeName}
                   </RegularText>
                 </View>
                 <View style={pageStyle.contentAlignmentEnd}>
@@ -98,6 +106,13 @@ export default class TransactionDetailPage extends BasePage {
                 <View style={pageStyle.piDisplayNameContainer}>
                   <RegularText style={[fontFamilyStyles.smallText]}>
                     {this.props.navigationProps.data?.AssociatedPIName + ' ( ' + this.props.navigationProps.data?.AssociatedPITypeDisplayName + ' )'}
+                  </RegularText>
+                </View> :
+                null}
+              {this.props.navigationProps.data?.TransactionType === 'Transfer In' ?
+                <View style={pageStyle.piDisplayNameContainer}>
+                  <RegularText style={[fontFamilyStyles.smallText]}>
+                    {this.props.navigationProps.data?.Description}
                   </RegularText>
                 </View> :
                 null}

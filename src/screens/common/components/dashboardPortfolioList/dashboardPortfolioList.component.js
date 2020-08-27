@@ -53,7 +53,7 @@ class DashboardPortfolioListComponent extends PureComponent<DashboardPortfolioLi
       .map((asset, index) => {
         let currency = this.props.Currencies.find(curr => curr.CurrencyCode === asset.CurrencyCode);
         return (<View key={`Asset_${index}`} style={[componentStyle.cardViewContainer, {paddingTop: index === 0 ? 0 : 8}]}>
-          <GoalDashboardCardView AssetAmount={asset.AssetAmount} Balance={asset.Balance} CurrencyCode={asset.CurrencyCode}
+          <GoalDashboardCardView AssetAmount={asset.TotalAssetAmount} Balance={asset.Balance} CurrencyCode={asset.CurrencyCode}
                                  CurrencyImageBaseURL={this.props.CurrencyImageBaseURL} CurrencyName={asset.CurrencyName}
                                  CurrencySymbol={this.props.currencySymbol} HexCode={currency.HexCode} IsAsset={true}
                                  ShowCheckMark={asset.isAllocated}

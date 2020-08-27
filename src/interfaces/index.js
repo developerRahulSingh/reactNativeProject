@@ -6,6 +6,7 @@ import B21RequestModel from '../models/b21.request.model';
 import { AddressBO, CountriesBO, CountryStatesBO, CurrencyBO, RegisterUserFieldRequirementsBO, SourceOfFundsBO, UserBO, UserInfoBO } from '../models/businessObjects';
 import {
   AddressEntity,
+  AssetTransactionHistoryEntity,
   AssetTransferWalletAddressEntity,
   AuthenticationTokenEntity,
   BuyAssetsInfoEntity,
@@ -46,6 +47,7 @@ import {
   DepositAmountRequestModel,
   ForgotPasswordRequestModel,
   GenerateCreatePaymentInstrumentHTMLRequestModel,
+  GetAssetTransferTransactionHistoryRequestModel,
   GetAssetTransferWalletAddressRequestModel,
   GetCountriesRequestModel,
   GetCurrenciesRequestModel,
@@ -61,6 +63,7 @@ import {
   SellAssetsRequestModel,
   SendMobileVerificationCodeRequestModel,
   UpdateAddressRequestModel,
+  UpdateAssetTransferTransactionAcquisitionInfoRequestModel,
   UpdateEmailAddressRequestModel,
   UpdateGoalAllocationRequestModel,
   UpdateOptInItemRequestModel,
@@ -84,6 +87,7 @@ import {
   CreateUserResponseModel,
   DepositAmountResponseModel,
   GenerateCreatePaymentInstrumentHTMLResponseModel,
+  GetAssetTransferTransactionHistoryResponseModel,
   GetAssetTransferWalletAddressResponseModel,
   GetCountriesResponseModel,
   GetCountryStatesResponseModel,
@@ -977,6 +981,38 @@ const interfaces = {
       try {
         let requestModel = new GetAssetTransferWalletAddressRequestModel(Direction, CurrencyCode);
         let response = new GetAssetTransferWalletAddressResponseModel(await TransactionInterface.getAssetTransferWalletAddress(requestModel));
+        if (response.isSuccessResponse()) {
+          resolve(response.Result);
+        } else {
+          return interfaces.handleAPIError(response, reject);
+        }
+      } catch (error) {
+        return interfaces.handleAPIException(error, reject);
+      }
+    });
+  },
+  //Api Use For - get list of assets transactions
+  getAssetTransferTransactionHistory: async (currencyCode: string, pageNumber: number, pageSize: number): Promise<AssetTransactionHistoryEntity | boolean> => {
+    return new Promise(async (resolve, reject) => {
+      try {
+        let requestModel = new GetAssetTransferTransactionHistoryRequestModel(currencyCode, '', '', pageNumber, pageSize);
+        let response = new GetAssetTransferTransactionHistoryResponseModel(await TransactionInterface.getAssetTransferTransactionHistory(requestModel));
+        if (response.isSuccessResponse()) {
+          resolve(response.Result);
+        } else {
+          return interfaces.handleAPIError(response, reject);
+        }
+      } catch (error) {
+        return interfaces.handleAPIException(error, reject);
+      }
+    });
+  },
+  //Api Use For update assets transactions
+  updateAssetTransferTransactionAcquisitionInfo: async (transactionID: string, amount: number, date: string): Promise<any | boolean> => {
+    return new Promise(async (resolve, reject) => {
+      try {
+        let requestModel = new UpdateAssetTransferTransactionAcquisitionInfoRequestModel(transactionID, amount, date);
+        let response = new HttpResponseModel(await TransactionInterface.updateAssetTransferTransactionAcquisitionInfo(requestModel));
         if (response.isSuccessResponse()) {
           resolve(response.Result);
         } else {

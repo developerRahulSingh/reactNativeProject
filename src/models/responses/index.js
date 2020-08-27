@@ -32,3 +32,4 @@ export * from './updateOptInItem.response.model';
 export * from './updatePerson.response.model';
 export * from './userAuthentication.response.model';
 export * from './withdrawAmount.response.model';
+export * from './getAssetTransferTransactionHistory.response.model';

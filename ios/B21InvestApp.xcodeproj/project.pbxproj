@@ -745,12 +745,12 @@
 				APP_BUNDLE_IDENTIFIER = io.b21.invest.debug;
 				APP_DISPLAY_NAME = "B21 Invest (Debug)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = YZ88BCMTCR;
 				INFOPLIST_FILE = B21InvestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.4.6;
+				MARKETING_VERSION = 0.4.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -769,11 +769,11 @@
 				APP_BUNDLE_IDENTIFIER = io.b21.invest;
 				APP_DISPLAY_NAME = "B21 Invest";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_TEAM = YZ88BCMTCR;
 				INFOPLIST_FILE = B21InvestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.4.6;
+				MARKETING_VERSION = 0.4.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -891,12 +891,12 @@
 				APP_BUNDLE_IDENTIFIER = io.b21.invest.test.debug;
 				APP_DISPLAY_NAME = "B21 Invest Test (Debug)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTest;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = YZ88BCMTCR;
 				INFOPLIST_FILE = "B21InvestApp/Info-Test.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.4.6;
+				MARKETING_VERSION = 0.4.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -915,11 +915,11 @@
 				APP_BUNDLE_IDENTIFIER = io.b21.invest.test;
 				APP_DISPLAY_NAME = "B21 Invest Test";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTest;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_TEAM = YZ88BCMTCR;
 				INFOPLIST_FILE = "B21InvestApp/Info-Test.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.4.6;
+				MARKETING_VERSION = 0.4.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

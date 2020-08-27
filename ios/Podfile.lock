@@ -20,9 +20,9 @@ PODS:
     - boost-for-react-native
     - DoubleConversion
     - glog
-  - FreshchatSDK (3.6.0)
+  - FreshchatSDK (3.7.4)
   - glog (0.3.5)
-  - Plaid (1.1.29)
+  - Plaid (1.1.34)
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -243,8 +243,8 @@ PODS:
     - React
   - RNDeviceInfo (5.5.5):
     - React
-  - RNFreshchatSDK (2.5.0):
-    - FreshchatSDK (= 3.6.0)
+  - RNFreshchatSDK (2.6.3):
+    - FreshchatSDK (= 3.7.4)
     - React
   - RNImageCropPicker (0.28.0):
     - React-Core
@@ -415,9 +415,9 @@ SPEC CHECKSUMS:
   FBLazyVector: aaeaf388755e4f29cd74acbc9e3b8da6d807c37f
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
-  FreshchatSDK: a81b2e22ec1b945142831dd5f8b0b88e84557701
+  FreshchatSDK: 748a278c5560e1b611f3a6c1804ec393abb1aca2
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  Plaid: 8cebd80f77f400568028b6d66c97827b76c675f4
+  Plaid: 083db655629015d74f71347d50322c9d936cdd2a
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -427,11 +427,11 @@ SPEC CHECKSUMS:
   React-jsi: cb2cd74d7ccf4cffb071a46833613edc79cdf8f7
   React-jsiexecutor: d5525f9ed5f782fdbacb64b9b01a43a9323d2386
   React-jsinspector: fa0ecc501688c3c4c34f28834a76302233e29dc0
-  react-native-build-config: 1130ad8668ca251b65e95e002b5b8f308a96726f
-  react-native-netinfo: cd479ab1b67cdd1cb1403a99ecdb24190a6dd7ef
-  react-native-plaid-link-sdk: 3a9b5791751a59ef14634731f7ec435bd091b91d
-  react-native-text-input-mask: 07227297075f9653315f43b0424d596423a01736
-  react-native-webview: db4682f1698ab4b17a5e88f951031d203ff8aea8
+  react-native-build-config: b8315c4f1d6696e20da628c24d45925edc56ecb0
+  react-native-netinfo: eed0fb1d6a9424e98ce686f92aad62ff427d4bc9
+  react-native-plaid-link-sdk: 59b31d3718e9cb785ef4b82a60f396b0d5927d55
+  react-native-text-input-mask: b3cb63f0cd73b4b3ea76dd0c614bb7d79e934e39
+  react-native-webview: 711cef318a554093b09a5b871894011435d87a8d
   React-RCTActionSheet: 600b4d10e3aea0913b5a92256d2719c0cdd26d76
   React-RCTAnimation: 791a87558389c80908ed06cc5dfc5e7920dfa360
   React-RCTBlob: d89293cc0236d9cb0933d85e430b0bbe81ad1d72
@@ -443,14 +443,14 @@ SPEC CHECKSUMS:
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   ReactNativeNavigation: 667586f6924fbd09512e2933fe70497db914b758
-  RNCAsyncStorage: 453cd7c335ec9ba3b877e27d02238956b76f3268
-  RNDateTimePicker: 4bd49e09f91ca73d69119a9e1173b0d43b82f5e5
-  RNDeviceInfo: d2ca97023bb1c2a49cd7adb3f956e14c048ea028
-  RNFreshchatSDK: a4278a992849cc89192eebf80582acc79a296e99
+  RNCAsyncStorage: b16697280b08bab4b5f2f67f752d93d13a52e9ed
+  RNDateTimePicker: 0f657a34a0f6465ab7d0255c24954693bc7a8cf6
+  RNDeviceInfo: 59d3d9a0ac50adfc3a2d3c27bbbb4efc7ae8984c
+  RNFreshchatSDK: d0c67d8e2723b678e364c10f7d5a28c06f8696da
   RNImageCropPicker: cf129d17e042ce3e96fb9ada967c28f21f977c82
   RNInputMask: 815461ebdf396beb62cf58916c35cf6930adb991
   RNKeychain: bf2d7e9a0ae7a073c07770dd2aa6d11c67581733
-  RNPermissions: 1008d3511fee0e25739cf81c4af0d1b2248f1053
+  RNPermissions: 8afd37dbc1be65748363c6a90caffd1806567651
   RNShare: bd6518701db274b8ba282b33620885f2225a5bcf
   RNSVG: ce9d996113475209013317e48b05c21ee988d42e
   RSKImageCropper: a446db0e8444a036b34f3c43db01b2373baa4b2a

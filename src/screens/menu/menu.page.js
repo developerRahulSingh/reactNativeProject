@@ -1,6 +1,5 @@
 import React from 'react';
 import { ScrollView, View } from 'react-native';
-import { Freshchat } from 'react-native-freshchat-sdk';
 import { strings } from '../../config/i18/i18n';
 import screenId from '../../constants/screen.id.enum';
 import stringConstant from '../../constants/string.constant';
@@ -34,7 +33,7 @@ export default class MenuPage extends BasePage {
       messageText: strings('menuPage.label_logout_popup_description'),
       alertTitle: strings('menuPage.title_logout_popup'),
       onRightButtonPress: async () => {
-        Freshchat.resetUser();
+        commonUtil.resetFreshchatUser();
         return NavigationUtil.gotoLogin();
       },
       onLeftButtonPress: () => null,
@@ -56,14 +55,18 @@ export default class MenuPage extends BasePage {
     } else {
       if (Object.keys(this.props.GoalAllocation).length === 0) {
         this.props.removeComponentID();
-        await interfaces.getGoalAllocation()
-          .then(async (result) => {
-            this.props.storeGoalAllocation(result);
-            await NavigationUtil.gotoScreen(this.props.componentId, screenId.Menu.ManageInvestmentAllocationPage);
-          })
-          .catch(async () => {
-            await NavigationUtil.gotoScreenWithHideBottomTabs(this.props.componentId, screenId.OnBoarding.Portfolio.BuildPortfolioPage);
-          });
+        if (this.props.UserSignupRegistrationInfo.GoalAllocationCreated) {
+          await interfaces.getGoalAllocation()
+            .then(async (result) => {
+              this.props.storeGoalAllocation(result);
+              await NavigationUtil.gotoScreen(this.props.componentId, screenId.Menu.ManageInvestmentAllocationPage);
+            })
+            .catch(async () => {
+              await NavigationUtil.gotoScreenWithHideBottomTabs(this.props.componentId, screenId.OnBoarding.Portfolio.BuildPortfolioPage);
+            });
+        } else {
+          await NavigationUtil.gotoScreenWithHideBottomTabs(this.props.componentId, screenId.OnBoarding.Portfolio.BuildPortfolioPage);
+        }
       } else {
         await NavigationUtil.gotoScreen(this.props.componentId, screenId.Menu.ManageInvestmentAllocationPage);
       }
@@ -156,6 +159,11 @@ export default class MenuPage extends BasePage {
             buttonClickEvent={() => this._openRespectiveScreen(screenId.Menu.TransactionHistoryPage)}
             imageLink={require('../../assets/menu.transectionhistory.icon.png')}
             buttonName={strings('menuPage.label_button_transaction_history')}
+          />
+          <MenuScreenButton
+            buttonClickEvent={() => this._openRespectiveScreen(screenId.Menu.TransactionAssetsHistoryPage)}
+            imageLink={require('../../assets/menu.transectionhistory.icon.png')}
+            buttonName={strings('menuPage.label_button_assets_deposit_history')}
           />
           <MenuScreenButton
             buttonClickEvent={async () => {

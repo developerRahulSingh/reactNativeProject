@@ -11,6 +11,7 @@ import { BasePage } from '../common/base.page';
 import { BackNavTitle, MediumText, RegularText } from '../common/components';
 import { pageStyle } from './help.page.style';
 
+
 const BuildConfig = require('react-native-build-config');
 
 export default class HelpPage extends BasePage {
@@ -31,12 +32,12 @@ export default class HelpPage extends BasePage {
 
   componentDidMount = (): void => {
     //todo - Anant: we may have to disable this for android as it is not working in android
-    Platform.OS === 'ios' && this.initFreshChat();
+    (Platform.OS === 'ios') && this.initFreshChat();
   };
 
   componentWillUnmount() {
     super.componentWillUnmount();
-    Freshchat.removeEventListeners(Freshchat.EVENT_USER_RESTORE_ID_GENERATED);
+    (Platform.OS === 'ios') && Freshchat.removeEventListeners(Freshchat.EVENT_USER_RESTORE_ID_GENERATED);
   }
 
   initFreshChat = () => {

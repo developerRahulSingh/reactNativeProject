@@ -10,6 +10,7 @@ import stringConstant from './src/constants/string.constant';
 import { AlternateLoginPageWithRedux, ForgotPasswordPageWithRedux, LoginPageWithRedux, ResetPasswordPageWithRedux } from './src/screens/auth';
 import {
   ActionModel,
+  AssetSelector,
   CommonAlert,
   CountrySelector,
   LanguageSelector,
@@ -31,6 +32,8 @@ import {
   ManageInvestmentAllocationPageWithRedux,
   MenuPageWithRedux,
   ProfitLossReportPageWithRedux,
+  TransactionAssetsEditPageWithRedux,
+  TransactionAssetsHistoryPageWithRedux,
   TransactionDetailPageWithRedux,
   TransactionHistoryPageWithRedux,
   UpdateEmailPageWithRedux,
@@ -124,6 +127,8 @@ export class App {
     Navigation.registerComponentWithRedux(screenId.Menu.ManageInvestmentAllocationPage, () => ManageInvestmentAllocationPageWithRedux, Provider, store);
     Navigation.registerComponentWithRedux(screenId.Menu.Page, () => MenuPageWithRedux, Provider, store);
     Navigation.registerComponentWithRedux(screenId.Menu.ProfitLossReportPage, () => ProfitLossReportPageWithRedux, Provider, store);
+    Navigation.registerComponentWithRedux(screenId.Menu.TransactionAssetsEditPage, () => TransactionAssetsEditPageWithRedux, Provider, store);
+    Navigation.registerComponentWithRedux(screenId.Menu.TransactionAssetsHistoryPage, () => TransactionAssetsHistoryPageWithRedux, Provider, store);
     Navigation.registerComponentWithRedux(screenId.Menu.TransactionDetailPage, () => TransactionDetailPageWithRedux, Provider, store);
     Navigation.registerComponentWithRedux(screenId.Menu.TransactionHistoryPage, () => TransactionHistoryPageWithRedux, Provider, store);
     Navigation.registerComponentWithRedux(screenId.Menu.UserProfile.Page, () => UserProfilePageWithRedux, Provider, store);
@@ -176,6 +181,7 @@ export class App {
     Navigation.registerComponentWithRedux(screenId.Transactional.Withdraw.WithdrawAmountPage, () => WithdrawAmountPageWithRedux, Provider, store);
 
     Navigation.registerComponent(screenId.Overlays.ActionModel, () => ActionModel);
+    Navigation.registerComponent(screenId.Overlays.AssetSelector, () => AssetSelector);
     Navigation.registerComponent(screenId.Overlays.CommonAlert, () => CommonAlert);
     Navigation.registerComponent(screenId.Overlays.CountrySelector, () => CountrySelector);
     Navigation.registerComponent(screenId.Overlays.LanguageSelector, () => LanguageSelector);

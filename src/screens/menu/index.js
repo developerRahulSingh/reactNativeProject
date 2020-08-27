@@ -5,6 +5,8 @@ import Import_LegalPageWithRedux from './legal.page.redux';
 import Import_ManageInvestmentAllocationPageWithRedux from './manageInvestmentAllocation.page.redux';
 import Import_MenuPageWithRedux from './menu.page.redux';
 import Import_ProfitLossReportPageWithRedux from './profitLossReport.page.redux';
+import Import_TransactionAssetsEditPageWithRedux from './transactionAssetsEdit.page.redux';
+import Import_TransactionAssetsHistoryPageWithRedux from './transactionAssetsHistory.page.redux';
 import Import_TransactionDetailPageWithRedux from './transactionDetail.page.redux';
 import Import_TransactionHistoryPageWithRedux from './transactionHistory.page.redux';
 import Import_UserProfilePageWithRedux from './userProfile.page.redux';
@@ -20,6 +22,8 @@ const LegalPageWithRedux = Import_LegalPageWithRedux;
 const ManageInvestmentAllocationPageWithRedux = Import_ManageInvestmentAllocationPageWithRedux;
 const MenuPageWithRedux = Import_MenuPageWithRedux;
 const ProfitLossReportPageWithRedux = Import_ProfitLossReportPageWithRedux;
+const TransactionAssetsEditPageWithRedux = Import_TransactionAssetsEditPageWithRedux;
+const TransactionAssetsHistoryPageWithRedux = Import_TransactionAssetsHistoryPageWithRedux;
 const TransactionDetailPageWithRedux = Import_TransactionDetailPageWithRedux;
 const TransactionHistoryPageWithRedux = Import_TransactionHistoryPageWithRedux;
 const UpdateEmailPageWithRedux = Import_UpdateEmailPageWithRedux;
@@ -36,6 +40,8 @@ export {
   ManageInvestmentAllocationPageWithRedux,
   MenuPageWithRedux,
   ProfitLossReportPageWithRedux,
+  TransactionAssetsEditPageWithRedux,
+  TransactionAssetsHistoryPageWithRedux,
   TransactionDetailPageWithRedux,
   TransactionHistoryPageWithRedux,
   UpdateEmailPageWithRedux,

@@ -26,4 +26,16 @@ export default class TransactionInterface {
       return response.data;
     });
   }
+
+  static getAssetTransferTransactionHistory(transactionData) {
+    return ClientInstance.post(HttpUrlConstant.GET_ASSET_TRANSFER_TRANSACTION_HISTORY, transactionData).then((response) => {
+      return response.data;
+    });
+  }
+
+  static updateAssetTransferTransactionAcquisitionInfo(obj) {
+    return ClientInstance.post(HttpUrlConstant.UPDATE_ASSET_TRANSFER_TRANSACTION_ACQUISITION_INFO, obj).then((response) => {
+      return response.data;
+    });
+  }
 }

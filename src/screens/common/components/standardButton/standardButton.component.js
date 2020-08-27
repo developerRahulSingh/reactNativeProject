@@ -5,23 +5,26 @@ import { MediumText } from '../mediumText/mediumText.component';
 import { componentStyle } from './standardButton.style';
 
 export type StandardButtonProps = {
-  width?: string,
-  visible?: boolean,
-  disabled?: boolean,
-  onPress?: ?(any) => void,
-  color?: string,
-  colorDisabled?: string,
-  isBottomButton?: boolean,
-  showBorder?: boolean,
-  borderColor?: string,
-  labelColor?: string,
-  labelText?: string,
-  showCompact?: boolean,
-  icon?: any,
-  style?: any
+  width?: string;
+  visible?: boolean;
+  disabled?: boolean;
+  onPress?: ?(any) => void;
+  color?: string;
+  colorDisabled?: string;
+  isBottomButton?: boolean;
+  showBorder?: boolean;
+  borderColor?: string;
+  labelColor?: string;
+  labelText?: string;
+  showCompact?: boolean;
+  icon?: any;
+  changeIcon?: any;
+  style?: any;
 }
 
-export type StandardButtonState = {}
+export type StandardButtonState = {
+  icon: any;
+}
 
 class StandardButton extends PureComponent<StandardButtonProps, StandardButtonState> {
   static defaultProps = {
@@ -37,18 +40,36 @@ class StandardButton extends PureComponent<StandardButtonProps, StandardButtonSt
     labelText: null,
     showCompact: false,
     icon: null,
+    changeIcon: null,
     style: {},
   };
 
   constructor(props) {
     super(props);
+    this.state = {
+      icon: this.props.icon,
+    };
   }
+
+  onPress = () => {
+    if (this.props.icon && this.props.changeIcon) {
+      this.setState({icon: this.props.changeIcon});
+      setTimeout(() => {
+        this.setState({
+          icon: this.props.icon,
+        });
+      }, 2000);
+    }
+    if (this.props.onPress) {
+      this.props.onPress();
+    }
+  };
 
   render() {
     return (
       <TouchableOpacity style={[{width: this.props.width, display: this.props.visible ? 'flex' : 'none'}, this.props.style]}
                         activeOpacity={.8}
-                        onPress={this.props.onPress}
+                        onPress={this.onPress}
                         disabled={this.props.disabled}
                         underlayColor={commonTheme.COLOR_BRIGHT}>
         <View style={[componentStyle.container, {
@@ -58,7 +79,7 @@ class StandardButton extends PureComponent<StandardButtonProps, StandardButtonSt
           borderWidth: this.props.showBorder ? 1 : 0,
           borderColor: this.props.borderColor,
         }]}>
-          {this.props.icon ? <Image style={componentStyle.iconStyle} source={this.props.icon}/> : null}
+          {this.state.icon ? <Image style={componentStyle.iconStyle} source={this.state.icon}/> : null}
           <MediumText style={[componentStyle.labelStyle, {color: this.props.labelColor}]}>
             {this.props.labelText}
           </MediumText>

@@ -13,7 +13,6 @@ const commonStyle = StyleSheet.create({
     padding: 32,
   },
   keyboardScrollViewContentContainer: {
-    paddingVertical: 16,
     flexGrow: 1,
   },
   switchInnerCircleStyle: {

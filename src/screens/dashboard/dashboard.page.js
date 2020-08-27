@@ -1,6 +1,5 @@
 import React from 'react';
 import { BackHandler, Image, RefreshControl, ScrollView, TouchableOpacity, View } from 'react-native';
-import { Freshchat } from 'react-native-freshchat-sdk';
 import LinearGradient from 'react-native-linear-gradient';
 import { strings } from '../../config/i18/i18n';
 import { BuyAssetsFlow } from '../../constants/buy.assets.info.enum';
@@ -9,6 +8,7 @@ import interfaces from '../../interfaces';
 import { CryptoCurrencyLocalModel } from '../../models/cryptocurrency.local.model';
 import { commonStyle } from '../../styles/common.style';
 import commonTheme from '../../themes/common.theme';
+import commonUtil from '../../utils/common.util';
 import NavigationUtil from '../../utils/navigation.util';
 import { BasePage } from '../common/base.page';
 import { BoldText, DashboardPortfolioListComponent, DonutChartComponent, MediumText, NotchPushComponent, RegularText, StandardButton } from '../common/components';
@@ -50,13 +50,13 @@ export default class DashboardPage extends BasePage {
   componentDidAppear = async () => {
     super.componentDidAppear();
     if (this.props.UserSignupRegistrationInfo.AggregateKYCPassed) {
-      await interfaces.getGoalAllocation()
-        .then((result) => {
-          this.props.storeGoalAllocation(result);
-        })
-        .catch(() => null);
-    } else {
-      //Goal Allocation data in store
+      if (this.props.UserSignupRegistrationInfo.GoalAllocationCreated) {
+        await interfaces.getGoalAllocation()
+          .then((result) => {
+            this.props.storeGoalAllocation(result);
+          })
+          .catch(() => null);
+      }
     }
     if (this.state.isFirstAppear) {
       this.setState({
@@ -93,7 +93,7 @@ export default class DashboardPage extends BasePage {
   };
 
   _exitApp = async () => {
-    Freshchat.resetUser();
+    commonUtil.resetFreshchatUser();
     BackHandler.exitApp();
   };
 

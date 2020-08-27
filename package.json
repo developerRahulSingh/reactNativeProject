@@ -28,7 +28,7 @@
     "react-native": "0.61.5",
     "react-native-build-config": "^0.3.2",
     "react-native-device-info": "^5.5.5",
-    "react-native-freshchat-sdk": "^2.5.0",
+    "react-native-freshchat-sdk": "^2.6.3",
     "react-native-image-crop-picker": "^0.28.0",
     "react-native-indicators": "^0.17.0",
     "react-native-keyboard-aware-scroll-view": "^0.9.1",

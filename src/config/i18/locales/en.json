@@ -126,6 +126,7 @@
   "depositCoinPage": {
     "label_button_Next": "Next",
     "label_buy": "Buy",
+    "description": "Please only deposit {{currencyCode}} token to the address displayed below.",
     "label_coin_name": "Coin Name",
     "label_exchange_rate": "Exchange Rate",
     "label_sell": "Sell",
@@ -202,6 +203,7 @@
     "alert_kyc_pending": "Your KYC verification is pending.",
     "alert_sure": "Please confirm",
     "label_app_settings": "App Settings",
+    "label_button_assets_deposit_history": "Assets Deposit History",
     "label_button_deposit": "Deposit to Cash Balance",
     "label_button_help": "Help",
     "label_button_investment_allocation": "Investment Allocation",
@@ -627,7 +629,14 @@
     "placeholder_new_email": "Enter your new email id",
     "title": "Update email"
   },
+  "transactionAssetsHistoryPage": {
+    "label_basic_cost": "Basic Cost: ",
+    "label_no_transaction_history": "No Assets Transaction History",
+    "label_select_asset": "Select Asset",
+    "title": "Assets Transaction History"
+  },
   "transactionHistoryPage": {
+    "label_assets": "Assets",
     "label_cashBalance": "Cash Balance",
     "label_complete": "Successful",
     "label_failed": "Failed",
@@ -636,6 +645,7 @@
     "title": "Transaction History"
   },
   "transactionDetailPage": {
+    "label_assets": "Assets",
     "label_cashBalance": "Cash Balance",
     "label_complete": "Successful",
     "label_Fees": "Fees",
@@ -683,5 +693,18 @@
     "label_button_continue": "Continue",
     "description": "Become a B21 VIP with only 300 B21 tokens in your portfolio and get reduced fees and exclusive bonuses",
     "title": "Upgrade to VIP"
+  },
+  "assetSelectorComponent": {
+    "label_button_cancel": "Cancel",
+    "placeholder_search": "Search"
+  },
+  "transactionAssetsEditPage": {
+    "description": "You can edit asset information here.",
+    "error_amount": "Please enter some amount.",
+    "label_button_done": "Done",
+    "label_id": "ID: ",
+    "label_select_date": "Select Date",
+    "placeholder_enter_amount": "Enter amount here",
+    "title": "Asset Transaction Edit"
   }
 }

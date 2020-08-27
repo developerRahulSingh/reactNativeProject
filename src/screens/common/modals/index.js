@@ -1,4 +1,5 @@
 import Import_ActionModel from './actionModel/actionModel.component';
+import Import_AssetSelector from './assetSelector/assetSelector.component';
 import Import_CommonAlert from './commonAlert/commonAlert.component';
 import Import_CountrySelector from './countrySelector/countrySelector.component';
 import Import_LanguageSelector from './languageSelector/languageSelector.component';
@@ -9,6 +10,7 @@ import Import_TransactionInstructions from './transactionInstructions/transactio
 import Import_YearSelector from './yearSelector/yearSelector.component';
 
 const ActionModel = Import_ActionModel;
+const AssetSelector = Import_AssetSelector;
 const CommonAlert = Import_CommonAlert;
 const CountrySelector = Import_CountrySelector;
 const LanguageSelector = Import_LanguageSelector;
@@ -20,6 +22,7 @@ const YearSelector = Import_YearSelector;
 
 export {
   ActionModel,
+  AssetSelector,
   CommonAlert,
   CountrySelector,
   LanguageSelector,

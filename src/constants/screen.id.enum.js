@@ -30,6 +30,8 @@ const screenId = {
     ManageInvestmentAllocationPage: 'Menu.ManageInvestmentAllocationPage',
     Page: 'Menu.Page',
     ProfitLossReportPage: 'Menu.ProfitLossReportPage',
+    TransactionAssetsEditPage: 'Menu.TransactionAssetsEditPage',
+    TransactionAssetsHistoryPage: 'Menu.TransactionAssetsHistoryPage',
     TransactionDetailPage: 'Menu.TransactionDetailPage',
     TransactionHistoryPage: 'Menu.TransactionHistoryPage',
     UserProfile: {
@@ -77,6 +79,7 @@ const screenId = {
   },
   Overlays: {
     ActionModel: 'Overlay.ActionModel',
+    AssetSelector: 'Overlay.AssetSelector',
     CommonAlert: 'Overlay.CommonAlert',
     CountrySelector: 'Overlay.CountrySelector',
     LanguageSelector: 'Overlay.LanguageSelector',

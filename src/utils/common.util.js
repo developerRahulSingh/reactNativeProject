@@ -2,6 +2,9 @@
 import React from 'react';
 import { Dimensions, Platform, StatusBar } from 'react-native';
 
+let Freshchat = (Platform.OS === 'ios') ? require('react-native-freshchat-sdk') : null;
+
+
 const commonUtil = {
   languageOptions: [
     {
@@ -25,6 +28,12 @@ const commonUtil = {
       label: 'label_spanish',
     },
   ],
+  resetFreshchatUser: () => {
+    if (Platform.OS === 'ios' && !!Freshchat) {
+      Freshchat.Freshchat.resetUser();
+
+    }
+  },
   validateNumericFields: (value) => {
     if (value.indexOf(' ') > -1 || value.indexOf(',') > -1
       || value.indexOf('-') > -1 || value.indexOf('.') > -1) {
